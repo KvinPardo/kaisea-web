@@ -5,6 +5,7 @@ import Action from "../components/Action";
 import Mision from "../components/Mision";
 import Alianzas from "../components/Alianzas";
 import Valores from "../components/Valores";
+import Productos from "../components/Productos";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Company />
       <Valores/>
       <Mision />
+      <Productos />
       <Alianzas />
      <Action />
     </div>

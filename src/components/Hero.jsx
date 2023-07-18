@@ -40,14 +40,9 @@ const Hero = () => {
             >
               {title}
             </motion.h3>
-            {/* <motion.p
-              variants={fadeIn("up", "tween", 0.6, 1.1)}
-              className="text-white lg:text-2xl text-2xl w-full text-center text-[14px]"
-            >
-              {subtitle}
-            </motion.p> */}
+
             <motion.button
-             variants={fadeIn("right", "tween", 0.4, 1.2)}
+              variants={fadeIn("right", "tween", 0.4, 1.2)}
               className="text-white text-xl px-[120px] py-2 border drop-shadow-lg lg:mt-10 mt-4 hover:bg-gray-300/50  hover:border-none "
             >
               {buttonText}

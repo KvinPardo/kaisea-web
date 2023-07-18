@@ -34,19 +34,35 @@ export const company = {
   ],
 };
 
-// export const valores = {
-//   imageSecond: "company-algas2",
-//   itemsSecond: [
-//     {
-//       text1:
-//         "En KAI, nos guiamos por valores fundamentales como la sostenibilidad, la calidad y la excelencia. Nos comprometemos a operar de manera responsable, preservando los recursos marinos y minimizando nuestro impacto ambiental.",
-//       text2:
-//         "Trabajamos en estrecha colaboración con las comunidades costeras, generando empleo y contribuyendo al desarrollo socioeconómico.",
-//       text3:
-//         "Nuestra meta es liderar el desarrollo sostenible de la industria acuícola de algas marinas en Chile, ofreciendo productos de alta calidad y apoyando los objetivos de desarrollo sostenibles",
-//     },
-//   ],
-// };
+export const productos1 = [
+  {
+    title: "Lessonia Nigrescens",
+    subtitle:
+      "son especies de algas pardas pertenecientes al género Lessonia. Estas algas son nativas de la costa del océano Pacífico, especialmente en las regiones costeras de Chile y Perú. Son conocidas por su forma alargada y ramificada, que les da un aspecto similar a un arbusto sumergido en el agua.",
+    description:
+      "Estas algas son consideradas como recursos marinos valiosos debido a sus diversos beneficios y aplicaciones.",
+    beneficio1:
+      "Fuente de nutrientes: Estas algas son ricas en nutrientes esenciales, como vitaminas (A, C, E, y algunas del complejo B), minerales (como calcio, magnesio, hierro y yodo), proteínas y fibra. Estos nutrientes pueden ser beneficiosos para mantener una buena salud y funcionamiento del cuerpo humano.",
+    beneficio2:
+      "Propiedades antioxidantes: Las algas Lessonia nigrescens y Lessonia trabeculata contienen compuestos antioxidantes, como polifenoles y carotenoides. Los antioxidantes ayudan a proteger las células del daño causado por los radicales libres, lo que puede contribuir a la prevención de enfermedades y al envejecimiento saludable.",
+    beneficio3:
+      "Apoyo a la salud digestiva: La fibra presente en estas algas puede ayudar a promover una digestión saludable y regular. Además, pueden actuar como prebióticos, lo que significa que proporcionan alimento para las bacterias beneficiosas en el intestino, favoreciendo así un equilibrio saludable de la microbiota intestinal.",
+    imagen1: "lessonia",
+    imagen2: "trabeculata",
+  },
+];
+
+export const productos2 = [
+  {
+    title: "Lessonia Trabeculata",
+
+    beneficio1:
+      "Potencial anticancerígeno: Algunos estudios sugieren que las algas Lessonia nigrescens y Lessonia trabeculata contienen compuestos con propiedades anticancerígenas. Estos compuestos pueden tener efectos inhibidores sobre el crecimiento de células cancerosas y, por lo tanto, podrían ser útiles en la prevención y tratamiento de ciertos tipos de cáncer.",
+    beneficio2:
+      "Aplicaciones en la industria alimentaria y cosmética: Debido a su perfil nutricional y propiedades beneficiosas para la piel, estas algas se utilizan en la elaboración de alimentos funcionales, suplementos alimenticios y productos cosméticos. Pueden encontrarse en forma de extractos, polvos o como ingredientes en productos específicos para el cuidado de la piel y el cabello.",
+    imagen2: "trabeculata",
+  },
+];
 
 export const faqData = {
   imageFaq: "faqImage",
