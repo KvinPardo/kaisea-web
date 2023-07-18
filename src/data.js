@@ -3,7 +3,7 @@ export const navData = {
     { to: "nosotros", name: "Nosotros" },
     { to: "equipo", name: "Equipo" },
     { to: "blog", name: "Blog" },
-    { to: "contact", name: "Contact" },
+    { to: "contacto", name: "Contacto" },
   ],
 };
 
