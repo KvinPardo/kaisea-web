@@ -13,7 +13,7 @@ const Home = () => {
       <Hero />
       <Company />
       <Valores/>
-      <Mision />
+      
       <Productos />
       <Alianzas />
      <Action />

@@ -1,6 +1,7 @@
 import React from "react";
 import { team } from "../data";
 import TeamSlider from "../components/TeamSlider";
+import Profesionales from "../components/Team/Profesionales";
 
 const Team = () => {
   return (
@@ -74,7 +75,7 @@ const Team = () => {
         </div>
       </section>
 
-      <section className="section">
+      <section className="lg:pb-[150px]">
         <div className="container mx-auto">
           <div>
             <h3 className="text-[40px] font-bold leading-10 mt-20">
@@ -82,29 +83,9 @@ const Team = () => {
             </h3>
           </div>
           <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 w-full h-full gap-8 mt-20 overflow-hidden">
-            {team.map((item, index) => {
-              return (
-                <div
-                  className="flex flex-col lg:flex-row w-full h-full shadow-md p-8 hover:scale-105 transition-all duration-300 "
-                  key={index}
-                >
-                  <div className="flex justify-center items-center">
-                    <img
-                      src={`/img/perfil/${item.image}`}
-                      alt=""
-                      className="lg:w-full "
-                    />
-                  </div>
-                  <div className="flex flex-col w-full h-full px-4 text-center lg:text-start">
-                    <h3 className="text-[20px]">{item.name}</h3>
-                    <p className="text-secondary font-bold">{item.cargo}</p>
-                    <p className="text-[15px] pt-2">
-                      {item.experience.slice(0, 100)}
-                    </p>
-                  </div>
-                </div>
-              );
-            })}
+            {team.map(item => (
+              <Profesionales key={item.id} item={item}/>
+            ))}
           </div>
         </div>
       </section>

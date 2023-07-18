@@ -64,6 +64,20 @@ export const productos2 = [
   },
 ];
 
+export const polvoAlgas = [
+  {
+    image: "polvo-algas",
+    beneficio1:
+      "Alto contenido nutricional: Las algas marinas son ricas en vitaminas, minerales, antioxidantes y fibra. El polvo de algas puede proporcionar una amplia gama de nutrientes esenciales, como yodo, hierro, calcio, magnesio, vitamina C y vitamina K.",
+    beneficio2:
+      "Fuente de antioxidantes: Las algas contienen varios compuestos antioxidantes que ayudan a proteger las células del estrés oxidativo y los radicales libres en el cuerpo.",
+    beneficio3:
+      "Posible efecto antiinflamatorio: Algunos estudios sugieren que ciertos compuestos presentes en las algas pueden tener propiedades antiinflamatorias, lo que podría ser beneficioso para la salud en general.",
+    beneficio4:
+      "Apoyo a la salud digestiva: El polvo de algas puede contener fibra dietética que favorece el tránsito intestinal y promueve la salud digestiva.",
+  },
+];
+
 export const faqData = {
   imageFaq: "faqImage",
   pretitle: "Preguntas Frecuentes",
@@ -203,7 +217,7 @@ export const team = [
     cargo: "CO-FOUNDER & CEO",
     experience:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
-    image: "perfil_1.webp",
+    image: "perfil_1",
   },
   {
     id: 2,
@@ -211,7 +225,7 @@ export const team = [
     cargo: "CO-FOUNDER & CTO",
     experience:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
-    image: "perfil_2.webp",
+    image: "perfil_2",
   },
   {
     id: 3,
@@ -219,7 +233,7 @@ export const team = [
     cargo: "MATERIAL SCIENTIST",
     experience:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
-    image: "perfil_3.webp",
+    image: "perfil_3",
   },
   {
     id: 4,
@@ -227,7 +241,7 @@ export const team = [
     cargo: "AQUACULTURE ENGINEER",
     experience:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
-    image: "perfil_4.webp",
+    image: "perfil_4",
   },
   {
     id: 5,
@@ -235,7 +249,7 @@ export const team = [
     cargo: "ENVIRONMENTAL CONSULTANT",
     experience:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
-    image: "perfil_5.webp",
+    image: "perfil_5",
   },
   {
     id: 6,
@@ -243,7 +257,7 @@ export const team = [
     cargo: "MARKETING & COMMUNICATION",
     experience:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
-    image: "perfil_6.webp",
+    image: "perfil_6",
   },
   {
     id: 7,
@@ -251,7 +265,7 @@ export const team = [
     cargo: "MARKETING & COMMUNICATION",
     experience:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
-    image: "perfil_7.webp",
+    image: "perfil_7",
   },
   {
     id: 8,
@@ -259,7 +273,7 @@ export const team = [
     cargo: "MARKETING & COMMUNICATION",
     experience:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
-    image: "perfil_8.webp",
+    image: "perfil_8",
   },
 ];
 

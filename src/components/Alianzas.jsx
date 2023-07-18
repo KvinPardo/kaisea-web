@@ -3,9 +3,9 @@ import { alianzas } from "../data";
 
 const Alianzas = () => {
   return (
-    <section className="section my-24 overflow-hidden">
+    <section className="section">
       <div className="container mx-auto ">
-        <h3 className="text-4xl py-20 uppercase font-bold">
+        <h3 className="text-4xl uppercase font-bold">
           Alianzas Estratégicas
         </h3>
         <div className="grid lg:grid-cols-5 grid-cols-3 mx-auto justify-between w-full gap-x-8">
