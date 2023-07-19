@@ -3,12 +3,12 @@ import Polvo from "/img/polvo-algas.webp";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../variants";
 
-
 const Productos = () => {
   return (
     <section className="section" name="productos">
       <div className="container mx-auto">
         <motion.div
+          name="productos"
           variants={staggerContainer(0.3, 1)}
           initial="hidden"
           whileInView={"show"}

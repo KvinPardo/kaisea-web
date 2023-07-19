@@ -6,7 +6,7 @@ import Profesionales from "../components/Team/Profesionales";
 const Team = () => {
   return (
     <div className=" w-full h-full">
-      <div className="bg-team w-full bg-center bg-no-repeat bg-cover min-h-[700px] flex justify-center items-center h-full">
+      <div className="bg-team w-full bg-center bg-no-repeat bg-cover lg:h-[650px] h-screen flex justify-center items-center">
         <div className="text-center">
           <h3 className="text-white lg:text-[60px] font-bold text-3xl uppercase lg:leading-[60px]">
             Conoce a quienes conforman

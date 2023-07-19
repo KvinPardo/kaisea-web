@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <header
       className={`${
-        isActive ? " h-[80px] lg:h-[80px]" : " h-[80px] lg:h-[80px]"
+        isActive ? " h-[70px] lg:h-[70px]" : " h-[70px] lg:h-[70px]"
       } fixed left-0 right-0 ${
         navMobile ? "bg-white" : ""
       } z-10 w-full mx-auto transition-all duration-300 bg-[#045f95]`}

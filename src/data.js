@@ -1,12 +1,3 @@
-export const navData = {
-  items: [
-    { to: "/nosotros", name: "Nosotros" },
-    { to: "/equipo", name: "Equipo" },
-    { to: "/productos", name: "Productos" },
-    { to: "/contacto", name: "Contacto" },
-  ],
-};
-
 export const hero = {
   pretitle: "Bienvenidos a KAI",
   title: "Algas Marinas de Chile",
@@ -295,11 +286,7 @@ export const aboutUs = [
     description:
       "Empresa Familiar experta en la extracción y procesamiento de algas pardas",
     text2:
-      "siendo reconocidos por la calidad de nuestros productos y nuestro compromiso con la sostenibilidad.",
-    mision:
-      " Incluir la misión y la visión de KAI, destacando el objetivo de liderar el desarrollo sostenible de la industria acuícola de algas marinas en Chile y convertirse en el referente global en la producción sostenible de algas marinas cultivadas.",
-    valores:
-      "Mencionar los valores corporativos de KAI, como la sostenibilidad, la calidad, la innovación y la responsabilidad social.",
+      "Siendo reconocidos por la calidad de nuestros productos y nuestro compromiso con la sostenibilidad.",
   },
 ];
 

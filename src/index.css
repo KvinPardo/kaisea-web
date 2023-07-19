@@ -35,9 +35,7 @@
   .lead {
     @apply text-2xl font-normal mb-6;
   }
-  .link {
-    @apply uppercase font-primary tracking-[0.08em];
-  }
+ 
   .section-lg {
     @apply py-[150px];
   }

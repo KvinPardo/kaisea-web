@@ -37,6 +37,9 @@ export default {
         team: 'url("/img/team.jpg")',
         aboutus: 'url("/img/aboutus.jpg")',
         wave: 'url("/img/wave.svg")',
+        formaverde: 'url("/img/forma-verde.svg")',
+        formaamarilla: 'url("/img/forma-amarilla.svg")',
+        formaceleste: 'url("/img/forma-celeste.svg")'
         // wavedos: 'url("/img/wavedos.svg")'
       },
     },

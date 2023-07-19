@@ -1,34 +1,35 @@
 import MisionVision from "../components/Nosotros/MisionVision";
 import Valores from "../components/Valores";
-import { aboutUs, vision, mision } from "../data";
+// import { aboutUs, vision, mision } from "../data";
+import { motion } from "framer-motion";
+import { fadeIn, staggerContainer } from "../variants";
+import HeroAbout from "/img/aboutus.jpg";
 
 const AboutUs = () => {
   return (
-    <div className=" h-full w-full">
-      <div className="bg-aboutus w-full bg-center bg-no-repeat bg-cover min-h-[800px] h-full flex justify-center items-center">
-        <div className="container mx-auto w-full">
-          {aboutUs.map((item, index) => {
-            return (
-              <div
-                key={index}
-                className="flex flex-col justify-center items-center lg:items-start gap-y-5 max-w-[600px] pt-32 lg:py-0"
-              >
-                <h3 className="text-[80px] font-bold tracking-[15px] uppercase text-secondary">
-                  {item.title}
-                </h3>
-                <p className="text-white lg:text-[24px] shadow-2xl lg:text-left text-center">
-                  {item.description}
-                </p>
-                <p className="text-white lg:text-[24px] shadow-2xl lg:text-left text-center">
-                  {item.text2}
-                </p>
-              </div>
-            );
-          })}
+    <div className="h-full w-full">
+      <motion.div name="productos" className="relative w-full">
+        <div className="w-full h-full relative">
+          <img
+            src={HeroAbout}
+            alt=""
+            className="w-full lg:h-[650px] object-cover brightness-75"
+          />
         </div>
-      </div>
 
-      <section className="section ">
+        <div className="absolute top-[-300px] left-[50%] -translate-x-[50%] -translate-y-[50%] flex flex-col justify-center items-start w-full lg:max-w-[800px]">
+          <h1 className="text-secondary text-[70px] font-bold uppercase tracking-[20px]">
+            Kai
+          </h1>
+          <p className="text-white text-2xl font-semibold">
+            Empresa Familiar experta en la extracción y procesamiento de algas
+            pardas, siendo reconocidos por la calidad de nuestros productos y
+            nuestro compromiso con la sostenibilidad.
+          </p>
+        </div>
+      </motion.div>
+
+      <section className="section">
         <div className="container mx-auto">
           <div className="flex flex-col justify-center items-center w-full h-full gap-y-6">
             <h3 className="text-xl">
@@ -52,7 +53,7 @@ const AboutUs = () => {
       </div>
 
       <div>
-        <Valores/>
+        <Valores />
       </div>
     </div>
   );

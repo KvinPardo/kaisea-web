@@ -53,23 +53,29 @@ const Alianzas = () => {
           className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-x-8"
         >
           <motion.div
-            variants={fadeIn("right", "tween", 0.4, 1.1)}
+            variants={fadeIn("right", "tween", 0.4, 1.3)}
             className="relative mb-12 px-3 lg:mb-0"
           >
-            <div className="mb-2 flex flex-col items-center justify-center gap-y-4">
-              <span className="text-primary">
-                <a href="" target="_blank">
-                  <img src={Kimica} alt="" />
-                </a>
-              </span>
+            <motion.div
+              variants={fadeIn("right", "tween", 0.4, 1.4)}
+              className="mb-2 flex flex-col items-center justify-center gap-y-4 hover:bg-gray-50 p-3 group "
+            >
+              <a href="" target="_blank" className="group">
+                <img
+                  src={Kimica}
+                  alt=""
+                  target="_blank"
+                  className="group-hover:scale-105 duration-500"
+                />
+              </a>
+
               <div className="flex flex-col justify-center items-center">
                 <p className="text-center text-[14px]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Distinctio exercitationem eum ipsa
                 </p>
               </div>
-            </div>
-
+            </motion.div>
             <div className="absolute right-0 top-0 hidden h-full min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25 lg:block" />
           </motion.div>
 
@@ -77,63 +83,80 @@ const Alianzas = () => {
             variants={fadeIn("right", "tween", 0.4, 1.3)}
             className="relative mb-12 px-3 lg:mb-0"
           >
-            <div className="mb-2 flex flex-col items-center justify-center gap-y-4">
-              <span className="text-primary">
-                <a href="" target="_blank">
-                  <img src={Kimica} alt="" />
-                </a>
-              </span>
+            <motion.div
+              variants={fadeIn("right", "tween", 0.4, 1.4)}
+              className="mb-2 flex flex-col items-center justify-center gap-y-4 hover:bg-gray-50 p-3 group "
+            >
+              <a href="" target="_blank" className="group">
+                <img
+                  src={Kimica}
+                  alt=""
+                  target="_blank"
+                  className="group-hover:scale-105 duration-500"
+                />
+              </a>
+
               <div className="flex flex-col justify-center items-center">
                 <p className="text-center text-[14px]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Distinctio exercitationem eum ipsa
                 </p>
               </div>
-            </div>
-
+            </motion.div>
             <div className="absolute right-0 top-0 hidden h-full min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25 lg:block" />
           </motion.div>
 
           <motion.div
-            variants={fadeIn("right", "tween", 0.4, 1.5)}
+            variants={fadeIn("right", "tween", 0.4, 1.3)}
             className="relative mb-12 px-3 lg:mb-0"
           >
-            <div className="mb-2 flex flex-col items-center justify-center gap-y-4">
-              <span className="text-primary">
-                <a href="" target="_blank">
-                  <img src={Kimica} alt="" />
-                </a>
-              </span>
+            <motion.div
+              variants={fadeIn("right", "tween", 0.4, 1.4)}
+              className="mb-2 flex flex-col items-center justify-center gap-y-4 hover:bg-gray-50 p-3 group "
+            >
+              <a href="" target="_blank" className="group">
+                <img
+                  src={Kimica}
+                  alt=""
+                  target="_blank"
+                  className="group-hover:scale-105 duration-500"
+                />
+              </a>
+
               <div className="flex flex-col justify-center items-center">
                 <p className="text-center text-[14px]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Distinctio exercitationem eum ipsa
                 </p>
               </div>
-            </div>
-
+            </motion.div>
             <div className="absolute right-0 top-0 hidden h-full min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25 lg:block" />
           </motion.div>
 
           <motion.div
-            variants={fadeIn("right", "tween", 0.4, 1.7)}
+            variants={fadeIn("right", "tween", 0.4, 1.3)}
             className="relative mb-12 px-3 lg:mb-0"
           >
-            <div className="mb-2 flex flex-col items-center justify-center gap-y-4">
-              <span className="text-primary">
-                <a href="" target="_blank">
-                  <img src={Kimica} alt="" />
-                </a>
-              </span>
+            <motion.div
+              variants={fadeIn("right", "tween", 0.4, 1.4)}
+              className="mb-2 flex flex-col items-center justify-center gap-y-4 hover:bg-gray-50 p-3 group "
+            >
+              <a href="" target="_blank" className="group">
+                <img
+                  src={Kimica}
+                  alt=""
+                  target="_blank"
+                  className="group-hover:scale-105 duration-500"
+                />
+              </a>
+
               <div className="flex flex-col justify-center items-center">
                 <p className="text-center text-[14px]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Distinctio exercitationem eum ipsa
                 </p>
               </div>
-            </div>
-
-            <div className="absolute right-0 top-0 hidden h-full min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25 lg:block" />
+            </motion.div>
           </motion.div>
         </motion.div>
       </div>

@@ -29,9 +29,10 @@ const Cards = () => {
             } border-[1px] border-secondary h-auto w-full flex flex-col lg:px-[60px] py-7 gap-y-4 text-center cursor-pointer `}
           >
             {/* card icon */}
-            <motion.div 
-            variants={fadeIn("down", "tween", 0.4, 1.2)}
-              className="flex justify-center items-center w-full">
+            <motion.div
+              variants={fadeIn(0.4, 1.2)}
+              className="flex justify-center items-center w-full"
+            >
               <img
                 src={`/img/${image}.png`}
                 alt="imagen-icono"
@@ -39,14 +40,19 @@ const Cards = () => {
               />
             </motion.div>
             {/* card title */}
-            <motion.div 
-              className="font-medium text-black text-[16px] flex flex-col gap-y-7 px-4 lg:px-0">
+            <motion.div className="font-medium text-black text-[16px] flex flex-col gap-y-7 px-4 lg:px-0">
               <motion.h3
                 variants={fadeIn("up", "tween", 0.4, 1.3)}
-                className="lg:text-[21px]">{title}</motion.h3>
+                className="lg:text-[21px]"
+              >
+                {title}
+              </motion.h3>
               <motion.p
                 variants={fadeIn("right", "tween", 0.4, 1.4)}
-                className="font-light">{subtitle}</motion.p>
+                className="font-light"
+              >
+                {subtitle}
+              </motion.p>
             </motion.div>
           </motion.div>
         );

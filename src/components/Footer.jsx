@@ -3,11 +3,8 @@ import Logo from "/img/logo-alga.webp";
 import { AiFillHome, AiOutlineMail, AiFillPhone } from "react-icons/ai";
 // import icons
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
-import { navData } from "../data";
 
 const Footer = () => {
-  const { items } = navData;
-
   return (
     <>
       {/* Footer container */}
@@ -53,13 +50,18 @@ const Footer = () => {
                   Enalces
                 </h6>
                 <ul className="flex flex-col gap-y-2 gap-x-[58px] mb-4">
-                  {items.map((item, index) => {
-                    return (
-                      <li key={index} className="text-white">
-                        <Link to={item.to}>{item.name}</Link>
-                      </li>
-                    );
-                  })}
+                  <li>
+                    <Link to="/nosotros">Nosotros</Link>
+                  </li>
+                  <li>
+                    <Link to="/equipo">Equipo</Link>
+                  </li>
+                  <li>
+                    <Link to="/productos">Productos</Link>
+                  </li>
+                  <li>
+                    <Link to="/contacto">Contacto</Link>
+                  </li>
                 </ul>
 
                 <p>

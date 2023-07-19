@@ -46,7 +46,7 @@ const Valores = () => {
           </motion.p>
         </motion.div>
 
-        <div>
+        <div className="w-full"> 
           {/* Cards */}
           <Cards />
         </div>
