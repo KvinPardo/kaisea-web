@@ -15,7 +15,7 @@ const Productos = () => {
         >
           <motion.h3
             variants={fadeIn("down", "tween", 0.4, 1.1)}
-            className="text-4xl font-bold"
+            className="text-5xl font-bold"
           >
             Nuestros Productos
           </motion.h3>

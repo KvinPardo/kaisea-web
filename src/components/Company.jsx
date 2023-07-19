@@ -12,19 +12,19 @@ const Company = () => {
 
   return (
     <>
-      <div className="section lg:pt-20 lg:pb-10">
+      <div className="section">
         <motion.div
           variants={staggerContainer(0.3, 1)}
           initial="hidden"
           whileInView={"show"}
           className="container mx-auto flex flex-col justify-center items-center "
         >
-          <motion.h1
+          <motion.h3
             variants={fadeIn("down", "tween", 0.4, 1.1)}
-            className="lg:text-4xl uppercase text-xl text-[#FFC000]"
+            className="lg:text-5xl uppercase text-xl text-[#FFC000]"
           >
             {title}
-          </motion.h1>
+          </motion.h3>
 
           <motion.p
             variants={fadeIn("down", "tween", 0.4, 1.1)}
