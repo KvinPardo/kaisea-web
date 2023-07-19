@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../variants";
 import { hero } from "../data";
 import Video from "/img/algas.mp4";
+import { Link } from "react-scroll";
 
 // import VideoHero from "../assets/video-hero.mp4";
 
@@ -41,12 +42,16 @@ const Hero = () => {
               {title}
             </motion.h3>
 
-            <motion.button
+            <Link
+              to="kai"
+              spy={true}
+              smooth={true}
+              duration={500}
               variants={fadeIn("right", "tween", 0.4, 1.2)}
-              className="text-white text-xl px-[120px] py-2 border drop-shadow-lg  mt-4 hover:bg-gray-300/50  hover:border-none "
+              className="text-white text-xl px-[120px] py-2 cursor-pointer border hover:bg-secondary hover:border-secondary transition-all duration-300"
             >
               {buttonText}
-            </motion.button>
+            </Link>
           </motion.div>
         </div>
       </div>

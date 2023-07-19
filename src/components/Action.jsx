@@ -1,6 +1,7 @@
 import React from "react";
 import { action } from "../data";
 import { FiChevronRight } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Action = () => {
   return (
@@ -20,10 +21,14 @@ const Action = () => {
                   {title}
                 </h3>
                 <h2 className="text-primary lg:text-xl text-[17px]">{text2}</h2>
-                <button className="border border-primary w-[200px] py-3 mt-5 flex justify-center items-center gap-x-3 group hover:bg-primary  hover:text-white">
+                <Link
+                  to="productos"
+                  spy= {true}
+                  className="border border-primary w-[200px] py-3 mt-5 flex justify-center items-center gap-x-3 group hover:bg-primary  hover:text-white"
+                >
                   {btnText}{" "}
                   <FiChevronRight className="group-hover:translate-x-2 transition-all duration-200" />
-                </button>
+                </Link>
               </div>
               {/* image */}
               <div className="flex-1 flex justify-center items-center">

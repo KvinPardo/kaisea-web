@@ -1,15 +1,17 @@
 import { Link } from "react-router-dom";
 import Logo from "/img/logo-alga.webp";
 import { AiFillHome, AiOutlineMail, AiFillPhone } from "react-icons/ai";
-
 // import icons
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { navData } from "../data";
 
 const Footer = () => {
+  const { items } = navData;
+
   return (
     <>
       {/* Footer container */}
-      <div className="bg-primary lg:mt-40">
+      <div className="bg-bgprimary lg:mt-40">
         <footer className=" text-white  lg:px-[140px]">
           <div className="flex items-center justify-center  border-neutral-200 py-6 px-5 dark:border-neutral-500 lg:justify-between">
             <div className="flex justify-between items-center">
@@ -48,38 +50,20 @@ const Footer = () => {
               {/* Useful links section */}
               <div className="">
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start text-white">
-                  Links
+                  Enalces
                 </h6>
-                <p className="mb-4">
-                  <Link
-                    to="/nosotros"
-                    className="text-white "
-                  >
-                    Nosotros
-                  </Link>
-                </p>
-                <p className="mb-4">
-                  <Link
-                    to="/equipo"
-                    className="text-white "
-                  >
-                    Nuestro Equipo
-                  </Link>
-                </p>
-                <p className="mb-4">
-                  <Link
-                    to="/contacto"
-                    className="text-white "
-                  >
-                    Contacto
-                  </Link>
-                </p>
+                <ul className="flex flex-col gap-y-2 gap-x-[58px] mb-4">
+                  {items.map((item, index) => {
+                    return (
+                      <li key={index} className="text-white">
+                        <Link to={item.to}>{item.name}</Link>
+                      </li>
+                    );
+                  })}
+                </ul>
 
                 <p>
-                  <a
-                    href="#!"
-                    className="text-white "
-                  >
+                  <a href="#!" className="text-white ">
                     Help
                   </a>
                 </p>
@@ -105,8 +89,10 @@ const Footer = () => {
           </div>
           {/*Copyright section*/}
         </footer>
-        <div className="flex justify-center flex-col p-2 text-center bg-primary w-full">
-          <p className="text-white text-[13px]">&copy; TODOS LOS DERECHOS RESERVADOS </p>
+        <div className="flex justify-center flex-col p-2 text-center bg-bgprimary w-full border-t-[1px]">
+          <p className="text-white text-[13px]">
+            &copy; TODOS LOS DERECHOS RESERVADOS{" "}
+          </p>
           <p className="text-white text-[13px]">Provincia de Vallenar, Chile</p>
         </div>
       </div>

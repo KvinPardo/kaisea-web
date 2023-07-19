@@ -22,6 +22,7 @@ export default {
         page: "#FEF8F5",
         primary: "#02175D",
         secondary: "#FFC000",
+        bgprimary: '#045f95'
       },
       dropShadow: {
         primary: "0 20px 40px rgba(238, 77, 71, 0.1)",

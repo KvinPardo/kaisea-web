@@ -3,8 +3,8 @@ import Layout from "./layouts/Layout";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Team from "./pages/Team";
-import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import Products from "./pages/Products";
 
 const router = createBrowserRouter([
   {
@@ -16,21 +16,24 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/nosotros',
+        path: "/nosotros",
         element: <AboutUs />,
       },
       {
-        path: '/equipo',
+        path: "/equipo",
         element: <Team />,
       },
-     
+
       {
-        path: '/contacto',
+        path: "/productos",
+        element: <Products />,
+      },
+      {
+        path: "/contacto",
         element: <Contact />,
       },
     ],
   },
 ]);
 
-
-export default router
+export default router;

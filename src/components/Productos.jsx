@@ -3,9 +3,10 @@ import Polvo from "/img/polvo-algas.webp";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../variants";
 
+
 const Productos = () => {
   return (
-    <section className="section">
+    <section className="section" name="productos">
       <div className="container mx-auto">
         <motion.div
           variants={staggerContainer(0.3, 1)}
@@ -55,6 +56,7 @@ const Productos = () => {
                 variants={staggerContainer(0.3, 1)}
                 initial="hidden"
                 whileInView={"show"}
+                key={index}
                 className="flex flex-col lg:flex-row w-full h-full justify-between"
               >
                 <div className="flex-1 py-12 h-full">

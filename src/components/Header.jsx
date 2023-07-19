@@ -25,7 +25,7 @@ const Header = () => {
         isActive ? " h-[80px] lg:h-[80px]" : " h-[80px] lg:h-[80px]"
       } fixed left-0 right-0 ${
         navMobile ? "bg-white" : ""
-      } z-10 w-full mx-auto transition-all duration-300 bg-[#02175D]`}
+      } z-10 w-full mx-auto transition-all duration-300 bg-[#045f95]`}
     >
       <div className="flex w-full justify-evenly items-center h-full px-[50px]">
         {/* logo */}

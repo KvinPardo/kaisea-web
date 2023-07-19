@@ -1,8 +1,9 @@
 export const navData = {
   items: [
-    { to: "nosotros", name: "Nosotros" },
-    { to: "equipo", name: "Equipo" },
-    { to: "contacto", name: "Contacto" },
+    { to: "/nosotros", name: "Nosotros" },
+    { to: "/equipo", name: "Equipo" },
+    { to: "/productos", name: "Productos" },
+    { to: "/contacto", name: "Contacto" },
   ],
 };
 
@@ -347,11 +348,12 @@ export const vision = [
 
 export const mision = [
   {
-    image: "mision",
-    title: "Nuestra Misión",
-    subtitle: "lorem",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione at provident alias fugiat molestias quae dicta repellendus deleniti consequatur? At magni eos illo? Iusto molestias laboriosam reprehenderit modi architecto recusandae.",
+    title:
+      "Incluir la misión y la visión de KAI, destacando el objetivo de liderar el desarrollo sostenible de la industria acuícola de algas marinas en Chile y convertirse en el referente global en la producción sostenible de algas marinas cultivadas.",
+    image: "sostenible",
+    forma1: "forma-verde",
+    forma2: "forma-amarilla",
+    forma3: "forma-celeste",
   },
 ];
 

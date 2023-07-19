@@ -13,7 +13,9 @@ const Nav = () => {
         {items.map((item, index) => {
           return (
             <li key={index} className="text-white">
-              <Link to={item.to}>{item.name}</Link>
+              <Link to={item.to} preventScrollReset={true}>
+                {item.name}
+              </Link>
             </li>
           );
         })}

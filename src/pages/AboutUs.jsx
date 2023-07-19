@@ -1,4 +1,5 @@
 import MisionVision from "../components/Nosotros/MisionVision";
+import Valores from "../components/Valores";
 import { aboutUs, vision, mision } from "../data";
 
 const AboutUs = () => {
@@ -12,7 +13,7 @@ const AboutUs = () => {
                 key={index}
                 className="flex flex-col justify-center items-center lg:items-start gap-y-5 max-w-[600px] pt-32 lg:py-0"
               >
-                <h3 className="text-[60px] font-bold tracking-[15px] uppercase">
+                <h3 className="text-[80px] font-bold tracking-[15px] uppercase text-secondary">
                   {item.title}
                 </h3>
                 <p className="text-white lg:text-[24px] shadow-2xl lg:text-left text-center">
@@ -48,6 +49,10 @@ const AboutUs = () => {
 
       <div>
         <MisionVision />
+      </div>
+
+      <div>
+        <Valores/>
       </div>
     </div>
   );

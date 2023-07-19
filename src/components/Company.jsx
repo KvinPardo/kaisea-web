@@ -12,7 +12,7 @@ const Company = () => {
 
   return (
     <>
-      <div className="section">
+      <div className="section" name="kai">
         <motion.div
           variants={staggerContainer(0.3, 1)}
           initial="hidden"
@@ -21,7 +21,7 @@ const Company = () => {
         >
           <motion.h3
             variants={fadeIn("down", "tween", 0.4, 1.1)}
-            className="lg:text-5xl uppercase text-xl text-[#FFC000]"
+            className="lg:text-5xl uppercase text-xl text-[#FFC000] font-semibold"
           >
             {title}
           </motion.h3>
