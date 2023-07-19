@@ -1,33 +1,45 @@
 import { productos1, productos2 } from "../data";
 import Polvo from "/img/polvo-algas.webp";
+import { motion } from "framer-motion";
+import { fadeIn, staggerContainer } from "../variants";
 
 const Productos = () => {
   return (
     <section className="section">
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-4 text-center justify-center items-center">
-          <h3 className="text-4xl font-bold">Nuestros Productos</h3>
-          <p>
+        <motion.div
+          variants={staggerContainer(0.3, 1)}
+          initial="hidden"
+          whileInView={"show"}
+          className="flex flex-col gap-y-4 text-center justify-center items-center"
+        >
+          <motion.h3
+            variants={fadeIn("down", "tween", 0.4, 1.1)}
+            className="text-4xl font-bold"
+          >
+            Nuestros Productos
+          </motion.h3>
+          <motion.p variants={fadeIn("left", "tween", 0.4, 1.2)}>
             KAI recolecta, seca y procesa algas marinas pardas Lessonia
             nigrescens y Lessonia trabeculata. Estos productos son materia prima
             para el desarrolo de productos de la industria de alginatos, donde
             las propiedades gelificantes y espesantes sirven para el desarrollo
             de aplicaciones en la industria alimenticia, farmacéutica y médica.
-          </p>
-          <p>
+          </motion.p>
+          <motion.p variants={fadeIn("right", "tween", 0.4, 1.3)}>
             Son especies de algas pardas pertenecientes al género Lessonia.
             Estas algas son nativas de la costa del océano Pacífico,
             especialmente en las regiones costeras de Chile y Perú. Son
             conocidas por su forma alargada y ramificada, que les da un aspecto
             similar a un arbusto sumergido en el agua.
-          </p>
-          <p>
+          </motion.p>
+          <motion.p variants={fadeIn("left", "tween", 0.4, 1.4)}>
             Estas algas son consideradas como recursos marinos valiosos debido a
             sus diversos beneficios y aplicaciones.
-          </p>
-        </div>
+          </motion.p>
+        </motion.div>
 
-        <div className="lg:my-5">
+        <section className="section">
           {productos1.map((producto, index) => {
             const {
               title,
@@ -39,31 +51,70 @@ const Productos = () => {
               beneficio3,
             } = producto;
             return (
-              <div
-                key={index}
+              <motion.div
+                variants={staggerContainer(0.3, 1)}
+                initial="hidden"
+                whileInView={"show"}
                 className="flex flex-col lg:flex-row w-full h-full justify-between"
               >
-                <div className="flex-1 py-12">
-                  <h3 className="text-2xl mb-4 font-semibold tracking-widest">{title}</h3>
-                  <img
+                <div className="flex-1 py-12 h-full">
+                  <motion.h3
+                    variants={fadeIn("right", "tween", 0.4, 1.1)}
+                    className="text-2xl mb-4 font-semibold tracking-widest lg:text-[50px] leading-[50px]"
+                  >
+                    {title}
+                  </motion.h3>
+                  <motion.img
+                    variants={fadeIn("up", "tween", 0.4, 1.4)}
                     src={`/img/${imagen1}.png`}
                     alt=""
                     className="w-full h-full shadow-xl"
                   />
                 </div>
-                <div className="flex-1 lg:px-10 px-2 flex justify-center items-center">
-                  <ul className="flex flex-col gap-y-3">
-                    <li className="text-[15px]">{beneficio1}</li>
-                    <li className="text-[15px]">{beneficio2}</li>
-                    <li className="text-[15px]">{beneficio3}</li>
-                  </ul>
-                </div>
-              </div>
+                <motion.div
+                  variants={staggerContainer(0.3, 1)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  className="flex-1 flex-col gap-y-8 lg:px-10 px-2 flex justify-center items-center"
+                >
+                  <motion.p variants={fadeIn("left", "tween", 0.4, 1.4)}>
+                    <span className="text-secondary font-semibold">
+                      Fuente de nutrientes:
+                    </span>{" "}
+                    Estas algas son ricas en nutrientes esenciales, como
+                    vitaminas (A, C, E, y algunas del complejo B), minerales
+                    (como calcio, magnesio, hierro y yodo), proteínas y fibra.
+                    Estos nutrientes pueden ser beneficiosos para mantener una
+                    buena salud y funcionamiento del cuerpo humano.
+                  </motion.p>
+                  <motion.p variants={fadeIn("up", "tween", 0.4, 1.4)}>
+                    <span className="text-secondary font-semibold">
+                      Propiedades antioxidantes:
+                    </span>{" "}
+                    Las algas Lessonia nigrescens y Lessonia trabeculata
+                    contienen compuestos antioxidantes, como polifenoles y
+                    carotenoides. Los antioxidantes ayudan a proteger las
+                    células del daño causado por los radicales libres, lo que
+                    puede contribuir a la prevención de enfermedades y al
+                    envejecimiento saludable.
+                  </motion.p>
+                  <motion.p variants={fadeIn("left", "tween", 0.4, 1.4)}>
+                    <span className="text-secondary font-semibold">
+                      Apoyo a la salud digestiva:
+                    </span>{" "}
+                    La fibra presente en estas algas puede ayudar a promover una
+                    digestión saludable y regular. Además, pueden actuar como
+                    prebióticos, lo que significa que proporcionan alimento para
+                    las bacterias beneficiosas en el intestino, favoreciendo así
+                    un equilibrio saludable de la microbiota intestinal.
+                  </motion.p>
+                </motion.div>
+              </motion.div>
             );
           })}
-        </div>
+        </section>
 
-        <div className="my-12">
+        <section className="section">
           {productos2.map((producto, id) => {
             const { title, imagen2, beneficio1, beneficio2, beneficio3 } =
               producto;
@@ -72,29 +123,64 @@ const Productos = () => {
                 key={id}
                 className="flex  flex-col lg:flex-row w-full h-full"
               >
-                <div className="flex-1 lg:pr-10 px-2 flex justify-center items-center">
-                  <ul className="flex flex-col gap-y-3">
-                    <li className="text-[15px]">{beneficio1}</li>
-                    <li className="text-[15px]">{beneficio2}</li>
-                    <li className="text-[15px]">{beneficio3}</li>
-                  </ul>
-                </div>
-                <div className="flex-1 py-12 -order-1 lg:order-none">
-                  <h3 className="text-2xl mb-4 text-right font-semibold tracking-widest">{title}</h3>
-                  <img
+                <motion.div
+                  variants={staggerContainer(0.3, 1)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  className="flex-1 flex-col gap-y-8 lg:mr-10 px-2 flex justify-center items-center"
+                >
+                  <motion.p variants={fadeIn("right", "tween", 0.4, 1.4)}>
+                    <span className="text-secondary font-semibold">
+                      Potencial anticancerígeno:{" "}
+                    </span>
+                    Algunos estudios sugieren que las algas Lessonia nigrescens
+                    y Lessonia trabeculata contienen compuestos con propiedades
+                    anticancerígenas. Estos compuestos pueden tener efectos
+                    inhibidores sobre el crecimiento de células cancerosas y,
+                    por lo tanto, podrían ser útiles en la prevención y
+                    tratamiento de ciertos tipos de cáncer.
+                  </motion.p>
+                  <motion.p variants={fadeIn("up", "tween", 0.4, 1.5)}>
+                    <span className="text-secondary font-semibold">
+                      Aplicaciones en la industria alimentaria y cosmética:
+                    </span>{" "}
+                    Debido a su perfil nutricional y propiedades beneficiosas
+                    para la piel, estas algas se utilizan en la elaboración de
+                    alimentos funcionales, suplementos alimenticios y productos
+                    cosméticos. Pueden encontrarse en forma de extractos, polvos
+                    o como ingredientes en productos específicos para el cuidado
+                    de la piel y el cabello.
+                  </motion.p>
+                </motion.div>
+                <motion.div
+                  variants={staggerContainer(0.3, 1)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  className="flex-1 py-12 -order-1 lg:order-none h-full"
+                >
+                  <motion.h3
+                    variants={fadeIn("left", "tween", 0.4, 1.1)}
+                    className="text-2xl mb-4 font-semibold tracking-widest lg:text-[50px] leading-[50px] text-right"
+                  >
+                    {title}
+                  </motion.h3>
+                  <motion.img
+                    variants={fadeIn("up", "tween", 0.4, 1.4)}
                     src={`/img/${imagen2}.jpg`}
                     alt=""
                     className="w-full h-full shadow-xl"
                   />
-                </div>
+                </motion.div>
               </div>
             );
           })}
-        </div>
+        </section>
 
-        <div className="">
+        <section className="section">
           <div className="px-4">
-            <h3 className="text-2xl font-semibold tracking-widest">Polvo de Algas</h3>
+            <h3 className="text-2xl mb-4 font-semibold tracking-widest lg:text-[50px] leading-[50px]">
+              Polvo de Algas
+            </h3>
             <p className="text-lg mt-4">
               también conocido como alga en polvo o polvo de algas marinas, es
               un producto derivado de las algas que se utiliza en diversas
@@ -155,7 +241,7 @@ const Productos = () => {
             significativos en tu dieta para determinar si el polvo de algas es
             adecuado para ti y tu situación particular".
           </p>
-        </div>
+        </section>
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import { motion } from "framer-motion";
-import { fadeIn, fadeInLeft, staggerContainer } from "../variants";
+import { fadeIn, staggerContainer } from "../variants";
 import { hero } from "../data";
 import Video from "/img/algas.mp4";
 
