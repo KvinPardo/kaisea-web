@@ -21,7 +21,7 @@ export default {
       colors: {
         page: "#FEF8F5",
         primary: "#02175D",
-        secondary: '#FFC000'
+        secondary: "#FFC000",
       },
       dropShadow: {
         primary: "0 20px 40px rgba(238, 77, 71, 0.1)",

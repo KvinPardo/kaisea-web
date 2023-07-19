@@ -26,24 +26,24 @@ const Hero = () => {
             variants={staggerContainer(0.3, 1)}
             initial="hidden"
             whileInView={"show"}
-            className="absolute lg:top-[-450px] top-[-200px] left-0 flex flex-col justify-center items-center w-full h-full px-4"
+            className="absolute lg:top-[-450px] top-[-200px] left-0 flex flex-col justify-center items-center w-full h-full px-4 gap-y-8"
           >
             <motion.h1
               variants={fadeIn("down", "tween", 0.4, 1.1)}
-              className="text-white lg:text-4xl text-2xl tracking-widest font-bold uppercase w-full text-center "
+              className="text-white lg:text-4xl text-6xl tracking-widest font-bold uppercase w-full text-center "
             >
               {pretitle}
             </motion.h1>
             <motion.h3
               variants={fadeIn("right", "tween", 0.4, 1.2)}
-              className="text-[#FFC000] uppercase lg:text-4xl tracking-wider w-full text-center font-bold text-2xl"
+              className="text-[#FFC000] uppercase lg:text-[55px] tracking-wider w-full text-center font-bold text-2xl "
             >
               {title}
             </motion.h3>
 
             <motion.button
               variants={fadeIn("right", "tween", 0.4, 1.2)}
-              className="text-white text-xl px-[120px] py-2 border drop-shadow-lg lg:mt-10 mt-4 hover:bg-gray-300/50  hover:border-none "
+              className="text-white text-xl px-[120px] py-2 border drop-shadow-lg  mt-4 hover:bg-gray-300/50  hover:border-none "
             >
               {buttonText}
             </motion.button>

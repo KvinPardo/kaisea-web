@@ -15,7 +15,7 @@ const Valores = () => {
         >
           <motion.h3
             variants={fadeIn("right", "tween", 0.4, 1.0)}
-            className="text-2xl"
+            className="lg:text-4xl text-xl"
           >
             En KAI, nos guiamos por valores fundamentales como la
             <span className="text-secondary uppercase font-semibold">

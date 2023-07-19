@@ -1,3 +1,4 @@
+import MisionVision from "../components/Nosotros/MisionVision";
 import { aboutUs, vision, mision } from "../data";
 
 const AboutUs = () => {
@@ -45,29 +46,9 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* <section className="section bg-neutral-500 min-h-[537px]">
-        <div className="container mx-auto">
-          <div>
-            {vision.map((vision, index) => {
-              const { image, title, subtitle, description } = vision;
-              return (
-                <div>
-                  
-                  <div>
-                    <img src={`/img/${image}.jpg`} alt="" />
-                  </div>
-                 
-                  <div>
-                    <h3>{title}</h3>
-                    <p>{subtitle}</p>
-                    <p>{description}</p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section> */}
+      <div>
+        <MisionVision />
+      </div>
     </div>
   );
 };

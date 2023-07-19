@@ -2,7 +2,6 @@ export const navData = {
   items: [
     { to: "nosotros", name: "Nosotros" },
     { to: "equipo", name: "Equipo" },
-    { to: "blog", name: "Blog" },
     { to: "contacto", name: "Contacto" },
   ],
 };

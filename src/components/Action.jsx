@@ -16,7 +16,9 @@ const Action = () => {
             >
               {/* text */}
               <div className="flex-1 my-8">
-                <h3 className=" text-primary text-[18px] lg:text-3xl mb-4 lg:mt-0">{title}</h3>
+                <h3 className=" text-primary text-[18px] lg:text-3xl mb-4 lg:mt-0">
+                  {title}
+                </h3>
                 <h2 className="text-primary lg:text-xl text-[17px]">{text2}</h2>
                 <button className="border border-primary w-[200px] py-3 mt-5 flex justify-center items-center gap-x-3 group hover:bg-primary  hover:text-white">
                   {btnText}{" "}
