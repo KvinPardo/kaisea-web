@@ -326,13 +326,13 @@ export const valores = [
     title: "Calidad",
     subtitle:
       "Al aplicar buenas prácticas de cultivo y mantener un monitoreo constante, se puede lograr una mayor calidad en el cultivo de algas, lo que a su vez puede aumentar su valor en los mercados alimentarios, farmacéuticos, cosméticos y energéticos.",
-    image: "calidad",
+    image: "excelencia",
   },
   {
     title: "Excelencia",
     subtitle:
       "Muchas especies de algas son comestibles y altamente nutritivas. Son una fuente rica en vitaminas, minerales, proteínas y ácidos grasos omega-3. ",
-    image: "excelencia",
+    image: "calidad",
   },
 ];
 

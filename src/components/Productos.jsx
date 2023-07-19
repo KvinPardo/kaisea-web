@@ -8,7 +8,7 @@ const Productos = () => {
         <div className="flex flex-col gap-y-4 text-center justify-center items-center">
           <h3 className="text-4xl font-bold">Nuestros Productos</h3>
           <p>
-            KAI recoleta, seca y procesa algas marinas pardas Lessonia
+            KAI recolecta, seca y procesa algas marinas pardas Lessonia
             nigrescens y Lessonia trabeculata. Estos productos son materia prima
             para el desarrolo de productos de la industria de alginatos, donde
             las propiedades gelificantes y espesantes sirven para el desarrollo
@@ -27,7 +27,7 @@ const Productos = () => {
           </p>
         </div>
 
-        <div className="my-12">
+        <div className="lg:my-5">
           {productos1.map((producto, index) => {
             const {
               title,
@@ -44,7 +44,7 @@ const Productos = () => {
                 className="flex flex-col lg:flex-row w-full h-full justify-between"
               >
                 <div className="flex-1 py-12">
-                  <h3 className="text-2xl mb-4">{title}</h3>
+                  <h3 className="text-2xl mb-4 font-semibold tracking-widest">{title}</h3>
                   <img
                     src={`/img/${imagen1}.png`}
                     alt=""
@@ -80,7 +80,7 @@ const Productos = () => {
                   </ul>
                 </div>
                 <div className="flex-1 py-12 -order-1 lg:order-none">
-                  <h3 className="text-2xl mb-4 text-right">{title}</h3>
+                  <h3 className="text-2xl mb-4 text-right font-semibold tracking-widest">{title}</h3>
                   <img
                     src={`/img/${imagen2}.jpg`}
                     alt=""
@@ -94,7 +94,7 @@ const Productos = () => {
 
         <div className="">
           <div className="px-4">
-            <h3 className="text-2xl">Polvo de Algas</h3>
+            <h3 className="text-2xl font-semibold tracking-widest">Polvo de Algas</h3>
             <p className="text-lg mt-4">
               también conocido como alga en polvo o polvo de algas marinas, es
               un producto derivado de las algas que se utiliza en diversas
