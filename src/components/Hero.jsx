@@ -30,7 +30,7 @@ const Hero = () => {
           >
             <motion.h1
               variants={fadeIn("down", "tween", 0.4, 1.1)}
-              className="text-white lg:text-4xl text-6xl tracking-widest font-bold uppercase w-full text-center "
+              className="text-white lg:text-4xl text-3xl tracking-widest font-bold uppercase w-full text-center "
             >
               {pretitle}
             </motion.h1>

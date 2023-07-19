@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       {/* Footer container */}
       <div className="bg-primary lg:mt-40">
-        <footer className=" text-neutral-600  dark:text-neutral-200 lg:px-[140px]">
+        <footer className=" text-white  lg:px-[140px]">
           <div className="flex items-center justify-center  border-neutral-200 py-6 px-5 dark:border-neutral-500 lg:justify-between">
             <div className="flex justify-between items-center">
               <span className="text-[14px] pr-4">
@@ -20,13 +20,13 @@ const Footer = () => {
 
             {/* Social network icons container */}
             <div className="flex justify-center gap-x-5">
-              <a href="#!" className=" text-neutral-600 dark:text-neutral-200">
+              <a href="#!" className=" text-white ">
                 <FaFacebookF />
               </a>
-              <a href="#!" className=" text-neutral-600 dark:text-neutral-200">
+              <a href="#!" className=" text-white ">
                 <FaInstagram />
               </a>
-              <a href="#!" className=" text-neutral-600 dark:text-neutral-200">
+              <a href="#!" className=" text-white ">
                 <FaTwitter />
               </a>
             </div>
@@ -53,7 +53,7 @@ const Footer = () => {
                 <p className="mb-4">
                   <Link
                     to="/nosotros"
-                    className="text-neutral-600 dark:text-neutral-200"
+                    className="text-white "
                   >
                     Nosotros
                   </Link>
@@ -61,7 +61,7 @@ const Footer = () => {
                 <p className="mb-4">
                   <Link
                     to="/equipo"
-                    className="text-neutral-600 dark:text-neutral-200"
+                    className="text-white "
                   >
                     Nuestro Equipo
                   </Link>
@@ -69,7 +69,7 @@ const Footer = () => {
                 <p className="mb-4">
                   <Link
                     to="/contacto"
-                    className="text-neutral-600 dark:text-neutral-200"
+                    className="text-white "
                   >
                     Contacto
                   </Link>
@@ -78,7 +78,7 @@ const Footer = () => {
                 <p>
                   <a
                     href="#!"
-                    className="text-neutral-600 dark:text-neutral-200"
+                    className="text-white "
                   >
                     Help
                   </a>
