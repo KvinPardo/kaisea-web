@@ -1,19 +1,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Socials from "./Socials";
+import { nav } from "../data";
 
-const NavMobile = () => {
+const NavMobile = ({ navMobile }) => {
+  const handleClick = () => setNav(!navMobile);
+
   return (
-    <nav className="w-full h-full flex flex-col justify-evenly overflow-hidden">
-      <ul className="flex flex-col justify-center gap-y-6 items-center py-6 mb-8">
-        <li>
-          <Link to="/nosotros" name="nosotros">Nosotros</Link>
-          <Link to="/equipo" name="equipo">Equipo</Link>
-          <Link to="/productos" name="productos">Productos</Link>
-          <Link to="/contacto" name="contacto">Contacto</Link>
-        </li>
+    <nav
+      className={`${
+        navMobile ? "min-h-screen" : "min-h-0"
+      } lg:hidden w-full bg-white fixed top-[80px] left-0 right-0 -bottom-12 -z-10 overflow-hidden transition-all h-0`}
+    >
+      <ul className="w-full h-full flex flex-col justify-center items-center gap-y-8">
+        {nav.map((item, index) => {
+          return (
+            <li key={index}>
+              <Link
+                onClick={handleClick}
+                to={item.href}
+                smooth={true}
+                duration={500}
+                className="text-primary text-2xl"
+              >
+                {item.name}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
-      <div className="text-2xl">
+      {/* Socials */}
+      <div className="flex -mt-32 justify-center gap-x-8">
         <Socials />
       </div>
     </nav>

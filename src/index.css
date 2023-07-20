@@ -35,6 +35,10 @@
   .lead {
     @apply text-2xl font-normal mb-6;
   }
+
+  .active {
+    @apply border-b-[3px] flex border-secondary
+  }
  
   .section-lg {
     @apply py-[150px];

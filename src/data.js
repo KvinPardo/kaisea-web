@@ -1,3 +1,11 @@
+const nav = [
+  { name: "Home", href: "/" },
+  { name: "Nosotros", href: "/nosotros" },
+  { name: "Nuestro Equipo", href: "/equipo" },
+  { name: "Productos", href: "/productos" },
+  { name: "Contacto", href: "/contacto" },
+];
+
 export const hero = {
   pretitle: "Bienvenidos a KAI",
   title: "Algas Marinas de Chile",
@@ -378,4 +386,4 @@ const contact = {
   address: "Provincia de Vallenar, Chile",
 };
 
-export { contact };
+export { contact, nav };

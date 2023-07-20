@@ -22,7 +22,7 @@ export default {
         page: "#FEF8F5",
         primary: "#02175D",
         secondary: "#FFC000",
-        bgprimary: '#045f95'
+        bgprimary: "#045f95",
       },
       dropShadow: {
         primary: "0 20px 40px rgba(238, 77, 71, 0.1)",
@@ -37,9 +37,10 @@ export default {
         team: 'url("/img/team.jpg")',
         aboutus: 'url("/img/aboutus.jpg")',
         wave: 'url("/img/wave.svg")',
+        wavecontacto: 'url("/img/wave-contacto.svg")',
         formaverde: 'url("/img/forma-verde.svg")',
         formaamarilla: 'url("/img/forma-amarilla.svg")',
-        formaceleste: 'url("/img/forma-celeste.svg")'
+        formaceleste: 'url("/img/forma-celeste.svg")',
         // wavedos: 'url("/img/wavedos.svg")'
       },
     },

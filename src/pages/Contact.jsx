@@ -8,13 +8,13 @@ const Contact = () => {
   const { title, subtitle, address } = contact;
 
   return (
-    <section className="section mt-20">
+    <section className="section lg:py-[200px] my-[80px] bg-wavecontacto bg-center bg-no-repeat w-full h-full bg-cover">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row w-full h-full gap-x-10">
           {/* text */}
           <div className="flex-1 flex flex-col gap-y-2">
             {/* title */}
-            <h2 className="text-2xl font-semibold">{title}</h2>
+            <h2 className="text-2xl font-semibold uppercase">{title}</h2>
             <p>{subtitle}</p>
             <div className="flex">
               <p>{address}</p>
@@ -31,11 +31,14 @@ const Contact = () => {
               ></iframe>
             </div>
           </div>
-          <div className="flex-1">
-            <h3 className="text-[20px] font-semibold mb-12">
+          <div className="flex-1 flex flex-col h-full">
+            <h3 className="text-[20px] font-semibold lg:text-2xl uppercase mb-10">
               Completa el Formulario
             </h3>
-            <form action="" className="px-5 flex flex-col gap-y-3">
+            <form
+              action=""
+              className="flex flex-col gap-y-3 shadow-2xl p-10 rounded-lg"
+            >
               <div className="flex flex-col lg:flex-row gap-5 mb-5">
                 <div className="flex-1 flex-col">
                   <label htmlFor="">Nombre:</label>
