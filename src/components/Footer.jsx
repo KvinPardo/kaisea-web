@@ -80,12 +80,6 @@ const Footer = () => {
                     </Link>
                   </li>
                 </ul>
-
-                <p>
-                  <a href="#!" className="text-white ">
-                    Help
-                  </a>
-                </p>
               </div>
               {/* Contact section */}
               <div>
