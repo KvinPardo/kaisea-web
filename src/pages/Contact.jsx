@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { contact } from "../data";
 import { AiFillHome, AiOutlineMail, AiFillPhone } from "react-icons/ai";
+import Faqs from "../components/Faqs";
 
 const Contact = () => {
   // destructure
@@ -31,14 +32,11 @@ const Contact = () => {
               ></iframe>
             </div>
           </div>
-          <div className="flex-1 flex flex-col h-full">
+          <div className="flex-1 flex flex-col h-full shadow-2xl py-10 px-12">
             <h3 className="text-[20px] font-semibold lg:text-2xl uppercase mb-10">
               Completa el Formulario
             </h3>
-            <form
-              action=""
-              className="flex flex-col gap-y-3 shadow-2xl p-10 rounded-lg"
-            >
+            <form action="" className="flex flex-col gap-y-3 p-10 rounded-lg">
               <div className="flex flex-col lg:flex-row gap-5 mb-5">
                 <div className="flex-1 flex-col">
                   <label htmlFor="">Nombre:</label>
@@ -114,6 +112,9 @@ const Contact = () => {
               </div>
             </form>
           </div>
+        </div>
+        <div className="">
+          <Faqs />
         </div>
       </div>
     </section>

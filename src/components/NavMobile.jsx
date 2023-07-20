@@ -19,7 +19,7 @@ const NavMobile = ({ navMobile }) => {
               <Link
                 onClick={handleClick}
                 to={item.href}
-                smooth={true}
+                smooth="true"
                 duration={500}
                 className="text-primary text-2xl"
               >

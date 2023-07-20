@@ -36,6 +36,7 @@ export default {
         algas: 'url("/img/algas-acordeon.jpg")',
         team: 'url("/img/team.jpg")',
         aboutus: 'url("/img/aboutus.jpg")',
+        bgfaq: 'url("/img/question-mark.svg")',
         wave: 'url("/img/wave.svg")',
         wavecontacto: 'url("/img/wave-contacto.svg")',
         formaverde: 'url("/img/forma-verde.svg")',
