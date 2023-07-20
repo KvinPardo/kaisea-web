@@ -1,9 +1,9 @@
 const nav = [
   { name: "Home", href: "/" },
-  { name: "Nosotros", href: "/nosotros" },
-  { name: "Nuestro Equipo", href: "/equipo" },
-  { name: "Productos", href: "/productos" },
-  { name: "Contacto", href: "/contacto" },
+  { name: "Nosotros", href: "nosotros" },
+  { name: "Nuestro Equipo", href: "equipo" },
+  { name: "Productos", href: "productos" },
+  { name: "Contacto", href: "contacto" },
 ];
 
 export const hero = {
@@ -332,14 +332,15 @@ const faq = {
         "Recolección manual: En algunas regiones, las algas se recolectan a mano, especialmente las que crecen cerca de la costa o en áreas poco profundas.",
     },
     {
-      question: "¿Cuál es el propósito principal de la extracción de algas marinas?",
+      question:
+        "¿Cuál es el propósito principal de la extracción de algas marinas?",
       answer:
         "La extracción de algas marinas se realiza con diversos propósitos, dependiendo de la industria y las necesidades específicas.",
     },
     {
-      question: "¿Cuáles son los desafíos asociados con la extracción de algas marinas?",
-      answer:
-        "Sostenibilidad, Regulaciones, Contaminación y Competencia.",
+      question:
+        "¿Cuáles son los desafíos asociados con la extracción de algas marinas?",
+      answer: "Sostenibilidad, Regulaciones, Contaminación y Competencia.",
     },
   ],
 };
