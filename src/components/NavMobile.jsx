@@ -32,7 +32,7 @@ const NavMobile = ({ navMobile }) => {
             Productos
           </Link>
         </li>
-        <li></li>
+        <li>
           <Link to="contacto" className="text-primary text-2xl">
             Contacto
           </Link>
