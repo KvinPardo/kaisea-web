@@ -13,7 +13,7 @@ const AboutUs = () => {
           <img
             src={HeroAbout}
             alt=""
-            className="w-full lg:h-[650px] object-cover brightness-75 h-screen"
+            className="w-full lg:h-[650px] object-cover brightness-50 h-screen"
           />
           <motion.div
             variants={staggerContainer(0.3, 1)}
@@ -56,9 +56,10 @@ const AboutUs = () => {
               hemos dedicado al negocio acuícola de algas marinas, aprovechando
               la riqueza de las costas chilenas.{" "}
             </motion.h3>
-            <motion.p 
+            <motion.p
               variants={fadeIn("down", "tween", 0.4, 1.3)}
-              className="text-xl text-primary text-center">
+              className="text-xl text-primary text-center"
+            >
               Nuestra experiencia y dedicación nos han convertido en referentes
               en la extracción y procesamiento de algas marinas pardas, siendo
               reconocidos por la calidad de nuestros productos y nuestro

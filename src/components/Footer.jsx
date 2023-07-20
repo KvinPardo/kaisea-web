@@ -49,18 +49,35 @@ const Footer = () => {
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start text-white">
                   Enalces
                 </h6>
+
                 <ul className="flex flex-col gap-y-2 gap-x-[58px] mb-4">
-                  <li>
-                    <Link to="/nosotros">Nosotros</Link>
+                  <li className="">
+                    <Link to="/" className="text-white text-[16px]">
+                      Home
+                    </Link>
                   </li>
-                  <li>
-                    <Link to="/equipo">Equipo</Link>
+                  <li className="">
+                    <Link to="/nosotros" className="text-white text-[16px]">
+                      Nosotros
+                    </Link>
                   </li>
-                  <li>
-                    <Link to="/productos">Productos</Link>
+                  <li className="">
+                    <Link
+                      to="/nuestro-equipo"
+                      className="text-white text-[16px]"
+                    >
+                      Nuestro Equipo
+                    </Link>
                   </li>
-                  <li>
-                    <Link to="/contacto">Contacto</Link>
+                  <li className="">
+                    <Link to="/productos" className="text-white text-[16px]">
+                      Productos
+                    </Link>
+                  </li>
+                  <li className="">
+                    <Link to="/contacto" className="text-white text-[16px]">
+                      Contacto
+                    </Link>
                   </li>
                 </ul>
 

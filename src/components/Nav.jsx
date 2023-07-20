@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { nav } from "../data";
 import { NavLink } from "react-router-dom";
 
 // import data
@@ -8,19 +7,47 @@ const Nav = () => {
   return (
     <nav className="hidden lg:flex">
       <ul className="flex text-white gap-x-8">
-        {nav.map((item, index) => {
-          return (
-            <li key={index}>
-              <NavLink
-                activeclass="active"
-                className="hover:text-secondary hover:border-b-[3px] hover:border-secondary transition"
-                to={item.href}
-              >
-                {item.name}
-              </NavLink>
-            </li>
-          );
-        })}
+        <li>
+          <NavLink
+            to="/"
+            activeclass="active"
+            className="text-white text-[18px] hover:text-secondary"
+          >
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/nosotros"
+            className="text-white text-[18px] hover:text-secondary"
+          >
+            Nosotros
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/nuestro-equipo"
+            className="text-white text-[18px] hover:text-secondary"
+          >
+            Nuestro Equipo
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/productos"
+            className="text-white text-[18px] hover:text-secondary"
+          >
+            Productos
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/contacto"
+            className="text-white text-[18px] hover:text-secondary"
+          >
+            Contacto
+          </NavLink>
+        </li>
       </ul>
     </nav>
     // <nav>

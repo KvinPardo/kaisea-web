@@ -16,11 +16,11 @@ const Home = () => {
       <Company />
       <Producto />
       {/* <Valores/> */}
-      
+
       {/* <Productos /> */}
       <Alianzas />
       <Action />
-      <Faqs/>
+      <Faqs />
     </div>
   );
 };

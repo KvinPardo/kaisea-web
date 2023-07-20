@@ -1,11 +1,3 @@
-const nav = [
-  { name: "Home", to: "/" },
-  { name: "Nosotros", to: "/nosotros" },
-  { name: "Nuestro Equipo", to: "/equipo" },
-  { name: "Productos", to: "/productos" },
-  { name: "Contacto", to: "/contacto" },
-];
-
 export const hero = {
   pretitle: "Bienvenidos a KAI",
   title: "Algas Marinas de Chile",
@@ -345,4 +337,4 @@ const faq = {
   ],
 };
 
-export { contact, nav, faq };
+export { contact, faq };
