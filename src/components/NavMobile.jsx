@@ -17,11 +17,10 @@ const NavMobile = ({ navMobile }) => {
           return (
             <li key={index}>
               <Link
-                name={item.name}
+                
                 onClick={handleClick}
                 to={item.href}
-                smooth="true"
-                duration={500}
+                
                 className="text-primary text-2xl"
               >
                 {item.name}
