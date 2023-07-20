@@ -1,9 +1,9 @@
 const nav = [
   { name: "Home", to: "/" },
-  { name: "Nosotros", to: "nosotros" },
-  { name: "Nuestro Equipo", to: "equipo" },
-  { name: "Productos", to: "productos" },
-  { name: "Contacto", to: "contacto" },
+  { name: "Nosotros", to: "/nosotros" },
+  { name: "Nuestro Equipo", to: "/equipo" },
+  { name: "Productos", to: "/productos" },
+  { name: "Contacto", to: "/contacto" },
 ];
 
 export const hero = {
