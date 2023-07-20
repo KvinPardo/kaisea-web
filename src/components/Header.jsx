@@ -22,7 +22,7 @@ const Header = () => {
   // });
 
   return (
-    <header className="fixed w-full z-30  left-0 right-0 flex mx-auto lg:justify-around items-center px-[20px] lg:px-[80px] bg-bgprimary transition-all duration-300 h-[80px]">
+    <header className="fixed w-full z-30  left-0 right-0 flex mx-auto lg:justify-around items-center px-[20px] lg:px-[80px] bg-[#00aec7] transition-all duration-300 h-[80px]">
       {/* Logo */}
       <Link to="/">
         <img className="h-[80px]" src={Logo} alt="" />
