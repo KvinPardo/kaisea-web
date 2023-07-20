@@ -9,7 +9,7 @@ import Producto from "../components/Producto";
 
 const Home = () => {
   return (
-    <div className="w-full overflow-hidden ">
+    <div className="w-full overflow-hidden">
       <Hero />
       <Company />
       <Producto />

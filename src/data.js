@@ -371,3 +371,11 @@ export const alianzas = [
     descripcion: "Kimica Corporation",
   },
 ];
+
+const contact = {
+  title: "Ponte en contacto con nosotros!",
+  subtitle: "Para estar atento.",
+  address: "Provincia de Vallenar, Chile",
+};
+
+export { contact };

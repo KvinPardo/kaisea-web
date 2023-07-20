@@ -5,14 +5,14 @@ import { fadeIn, staggerContainer } from "../variants";
 
 const Productos = () => {
   return (
-    <section className="section" name="productos">
+    <section className="section mt-20" name="productos">
       <div className="container mx-auto">
         <motion.div
           name="productos"
           variants={staggerContainer(0.3, 1)}
           initial="hidden"
           whileInView={"show"}
-          className="flex flex-col gap-y-4 text-center justify-center items-center"
+          className="flex flex-col gap-y-4 text-center justify-center items-center w-full h-full"
         >
           <motion.h3
             variants={fadeIn("down", "tween", 0.4, 1.1)}
