@@ -6,6 +6,7 @@ import Action from "../components/Action";
 import Alianzas from "../components/Alianzas";
 
 import Producto from "../components/Producto";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       <Company />
       <Producto />
       {/* <Valores/> */}
-
+      
       {/* <Productos /> */}
       <Alianzas />
       <Action />
