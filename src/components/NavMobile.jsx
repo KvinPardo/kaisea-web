@@ -17,10 +17,8 @@ const NavMobile = ({ navMobile }) => {
           return (
             <li key={index}>
               <Link
-                
                 onClick={handleClick}
-                to={item.href}
-                
+                to={item.to}
                 className="text-primary text-2xl"
               >
                 {item.name}
