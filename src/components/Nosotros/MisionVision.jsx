@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../../variants";
+import Mision from '/img/mision.jpg'
+import Vision from '/img/vision.jpg'
 
 const MisionVision = () => {
   return (
@@ -56,7 +58,7 @@ const MisionVision = () => {
             >
               <motion.img
                 variants={fadeIn("left", "tween", 0.4, 1.1)}
-                src=""
+                src={Mision}
                 alt=""
                 className="w-full h-full"
               />
@@ -84,7 +86,7 @@ const MisionVision = () => {
               <div className="flex-1">
                 <motion.img
                   variants={fadeIn("right", "tween", 0.4, 1.1)}
-                  src=""
+                  src={Vision}
                   alt=""
                   className="w-full h-full"
                 />
