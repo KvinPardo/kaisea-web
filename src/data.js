@@ -1,6 +1,3 @@
-
-
-
 const nav = [
   { name: "Home", href: "/" },
   { name: "Nosotros", href: "/nosotros" },
@@ -79,8 +76,6 @@ export const polvoAlgas = [
       "Apoyo a la salud digestiva: El polvo de algas puede contener fibra dietética que favorece el tránsito intestinal y promueve la salud digestiva.",
   },
 ];
-
-
 
 export const pricing = [
   {
@@ -314,38 +309,37 @@ const contact = {
 };
 
 const faq = {
-  
   title: "Preguntas Frecuentes",
   accordions: [
     {
-      question: "How can I book a workout class?",
+      question: "¿Qué son las algas marinas?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Las algas marinas son organismos fotosintéticos que se encuentran en ambientes acuáticos, principalmente en los océanos y mares. Son conocidas por su capacidad de realizar fotosíntesis, convirtiendo la luz solar en energía para su crecimiento. Existen diversos tipos de algas, como las algas verdes, pardas y rojas, cada una con características distintas.",
     },
     {
-      question: "Can I pay by cash for my membership?",
+      question: " ¿Cuáles son los beneficios de las algas marinas?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        " Las algas marinas son una fuente rica de nutrientes y compuestos bioactivos que ofrecen diversos beneficios para la salud y el medio ambiente.",
     },
     {
-      question: "What age do I need to be to join?",
+      question: "¿Cómo se extraen las algas marinas?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        " La extracción de algas marinas puede llevarse a cabo de diversas formas, dependiendo del tipo de alga y su uso previsto.",
     },
     {
-      question: "Are there any lockers?",
+      question: "¿Cuáles son los tipos de extracción?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Recolección manual: En algunas regiones, las algas se recolectan a mano, especialmente las que crecen cerca de la costa o en áreas poco profundas.",
     },
     {
-      question: "How do I cancel my membership?",
+      question: "¿Cuál es el propósito principal de la extracción de algas marinas?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "La extracción de algas marinas se realiza con diversos propósitos, dependiendo de la industria y las necesidades específicas.",
     },
     {
-      question: "Is there water available at the gym?",
+      question: "¿Cuáles son los desafíos asociados con la extracción de algas marinas?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Sostenibilidad, Regulaciones, Contaminación y Competencia.",
     },
   ],
 };

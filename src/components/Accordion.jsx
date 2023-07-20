@@ -24,12 +24,12 @@ const Accordion = ({ accordion }) => {
 
         <div
           className={` ${
-            isOpen
-              ? "min-h-[200px] lg:min-h-[160px]"
-              : "min-h-0"
-          } max-h-0 overflow-hidden flex justify-center transition-all px-[30px] `}
+            isOpen ? "min-h-[200px] lg:min-h-[160px] relative " : "min-h-0"
+          } max-h-0 overflow-hidden flex justify-center transition-all px-[30px] relative`}
         >
-          <div className="mt-6">{answer}</div>
+          <div className="mt-6 overflow-y-scroll md:overflow-visible">
+            <p>{answer}</p>
+          </div>
         </div>
       </div>
     </div>

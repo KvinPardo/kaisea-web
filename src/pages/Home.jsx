@@ -7,6 +7,7 @@ import Alianzas from "../components/Alianzas";
 
 import Producto from "../components/Producto";
 import ScrollToTop from "../components/ScrollToTop";
+import Faqs from "../components/Faqs";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       {/* <Productos /> */}
       <Alianzas />
       <Action />
+      <Faqs/>
     </div>
   );
 };
