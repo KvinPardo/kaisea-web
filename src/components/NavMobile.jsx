@@ -18,22 +18,22 @@ const NavMobile = ({ navMobile }) => {
           </Link>
         </li>
         <li>
-          <Link to="/nosotros" className="text-primary text-2xl">
+          <Link to="nosotros" className="text-primary text-2xl">
             Nosotros
           </Link>
         </li>
         <li>
-          <Link to="/nuestro-equipo" className="text-primary text-2xl">
+          <Link to="nuestro-equipo" className="text-primary text-2xl">
             Nuestro Equipo
           </Link>
         </li>
         <li>
-          <Link to="/productos" className="text-primary text-2xl">
+          <Link to="productos" className="text-primary text-2xl">
             Productos
           </Link>
         </li>
-        <li>
-          <Link x to="/contacto" className="text-primary text-2xl">
+        <li></li>
+          <Link to="contacto" className="text-primary text-2xl">
             Contacto
           </Link>
         </li>
