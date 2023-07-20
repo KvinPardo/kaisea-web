@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Socials from "./Socials";
 
 const NavMobile = ({ navMobile }) => {
-  const handleClick = () => setNav(!navMobile);
+  const handleClick = () => setNav(false);
 
   return (
     <nav
@@ -18,22 +18,38 @@ const NavMobile = ({ navMobile }) => {
           </Link>
         </li>
         <li>
-          <Link to="/nosotros" className="text-primary text-2xl">
+          <Link
+            to="/nosotros"
+            onClick={handleClick}
+            className="text-primary text-2xl"
+          >
             Nosotros
           </Link>
         </li>
         <li>
-          <Link to="/nuestro-equipo" className="text-primary text-2xl">
+          <Link
+            to="/nuestro-equipo"
+            onClick={handleClick}
+            className="text-primary text-2xl"
+          >
             Nuestro Equipo
           </Link>
         </li>
         <li>
-          <Link to="/productos" className="text-primary text-2xl">
+          <Link
+            to="/productos"
+            onClick={handleClick}
+            className="text-primary text-2xl"
+          >
             Productos
           </Link>
         </li>
         <li>
-          <Link to="/contacto" className="text-primary text-2xl">
+          <Link
+            to="/contacto"
+            onClick={handleClick}
+            className="text-primary text-2xl"
+          >
             Contacto
           </Link>
         </li>
