@@ -79,7 +79,7 @@ const Alianzas = () => {
             <div className="absolute right-0 top-0 hidden h-full min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25 lg:block" />
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             variants={fadeIn("right", "tween", 0.4, 1.3)}
             className="relative mb-12 px-3 lg:mb-0"
           >
@@ -104,9 +104,9 @@ const Alianzas = () => {
               </div>
             </motion.div>
             <div className="absolute right-0 top-0 hidden h-full min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25 lg:block" />
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div
+          {/* <motion.div
             variants={fadeIn("right", "tween", 0.4, 1.3)}
             className="relative mb-12 px-3 lg:mb-0"
           >
@@ -131,9 +131,9 @@ const Alianzas = () => {
               </div>
             </motion.div>
             <div className="absolute right-0 top-0 hidden h-full min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25 lg:block" />
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div
+          {/* <motion.div
             variants={fadeIn("right", "tween", 0.4, 1.3)}
             className="relative mb-12 px-3 lg:mb-0"
           >
@@ -157,7 +157,7 @@ const Alianzas = () => {
                 </p>
               </div>
             </motion.div>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
     </section>
