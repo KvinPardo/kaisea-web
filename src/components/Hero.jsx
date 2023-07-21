@@ -44,7 +44,7 @@ const Hero = () => {
 
             <Link
               to="kai"
-              spy={true}
+              offset={-80}
               smooth={true}
               duration={500}
               variants={fadeIn("right", "tween", 0.4, 1.2)}

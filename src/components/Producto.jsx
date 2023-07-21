@@ -13,11 +13,11 @@ const Producto = () => {
           variants={staggerContainer(0.3, 1)}
           initial="hidden"
           whileInView={"show"}
-          className="flex justify-center items-center"
+          className="flex justify-center lg:items-center"
         >
           <motion.h3
             variants={fadeIn("down", "tween", 0.4, 1.2)}
-            className="text-5xl font-semibold"
+            className="lg:text-5xl font-semibold text-3xl text-left"
           >
             Nuestros Productos
           </motion.h3>
@@ -85,9 +85,6 @@ const Producto = () => {
               marinas. También desempeñan un papel importante en la captura y
               almacenamiento de carbono, ayudando a mitigar el cambio climático.
             </motion.p>
-            <Link to="/productos" offset={0}>
-              hola
-            </Link>
           </div>
 
           <motion.div

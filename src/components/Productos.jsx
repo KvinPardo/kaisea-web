@@ -5,10 +5,9 @@ import { fadeIn, staggerContainer } from "../variants";
 
 const Productos = () => {
   return (
-    <section className="section mt-20" name="productos">
+    <section className="section my-20" name="productos">
       <div className="container mx-auto">
         <motion.div
-          name="productos"
           variants={staggerContainer(0.3, 1)}
           initial="hidden"
           whileInView={"show"}
@@ -16,25 +15,34 @@ const Productos = () => {
         >
           <motion.h3
             variants={fadeIn("down", "tween", 0.4, 1.1)}
-            className="text-5xl font-bold"
+            className="lg:text-5xl font-bold text-2xl"
           >
             Nuestros Productos
           </motion.h3>
-          <motion.p variants={fadeIn("left", "tween", 0.4, 1.2)}>
+          <motion.p
+            variants={fadeIn("left", "tween", 0.4, 1.2)}
+            className="text-[14px] lg:text-[16px]"
+          >
             KAI recolecta, seca y procesa algas marinas pardas Lessonia
             nigrescens y Lessonia trabeculata. Estos productos son materia prima
             para el desarrolo de productos de la industria de alginatos, donde
             las propiedades gelificantes y espesantes sirven para el desarrollo
             de aplicaciones en la industria alimenticia, farmacéutica y médica.
           </motion.p>
-          <motion.p variants={fadeIn("right", "tween", 0.4, 1.3)}>
+          <motion.p
+            variants={fadeIn("right", "tween", 0.4, 1.3)}
+            className="text-[14px] lg:text-[16px]"
+          >
             Son especies de algas pardas pertenecientes al género Lessonia.
             Estas algas son nativas de la costa del océano Pacífico,
             especialmente en las regiones costeras de Chile y Perú. Son
             conocidas por su forma alargada y ramificada, que les da un aspecto
             similar a un arbusto sumergido en el agua.
           </motion.p>
-          <motion.p variants={fadeIn("left", "tween", 0.4, 1.4)}>
+          <motion.p
+            variants={fadeIn("left", "tween", 0.4, 1.4)}
+            className="text-[14px] lg:text-[16px]"
+          >
             Estas algas son consideradas como recursos marinos valiosos debido a
             sus diversos beneficios y aplicaciones.
           </motion.p>
@@ -79,7 +87,10 @@ const Productos = () => {
                   whileInView={"show"}
                   className="flex-1 flex-col gap-y-8 lg:px-10 px-2 flex justify-center items-center"
                 >
-                  <motion.p variants={fadeIn("left", "tween", 0.4, 1.4)}>
+                  <motion.p
+                    className="text-[14px] lg:text-[16px]"
+                    variants={fadeIn("left", "tween", 0.4, 1.4)}
+                  >
                     <span className="text-secondary font-semibold">
                       Fuente de nutrientes:
                     </span>{" "}
@@ -89,7 +100,10 @@ const Productos = () => {
                     Estos nutrientes pueden ser beneficiosos para mantener una
                     buena salud y funcionamiento del cuerpo humano.
                   </motion.p>
-                  <motion.p variants={fadeIn("up", "tween", 0.4, 1.4)}>
+                  <motion.p
+                    variants={fadeIn("up", "tween", 0.4, 1.4)}
+                    className="text-[14px] lg:text-[16px]"
+                  >
                     <span className="text-secondary font-semibold">
                       Propiedades antioxidantes:
                     </span>{" "}
@@ -100,7 +114,10 @@ const Productos = () => {
                     puede contribuir a la prevención de enfermedades y al
                     envejecimiento saludable.
                   </motion.p>
-                  <motion.p variants={fadeIn("left", "tween", 0.4, 1.4)}>
+                  <motion.p
+                    className="text-[14px] lg:text-[16px]"
+                    variants={fadeIn("left", "tween", 0.4, 1.4)}
+                  >
                     <span className="text-secondary font-semibold">
                       Apoyo a la salud digestiva:
                     </span>{" "}
@@ -130,7 +147,10 @@ const Productos = () => {
                   whileInView={"show"}
                   className="flex-1 flex-col gap-y-8 lg:mr-10 px-2 flex  items-center"
                 >
-                  <motion.p variants={fadeIn("right", "tween", 0.4, 1.4)}>
+                  <motion.p
+                    className="text-[14px] lg:text-[16px]"
+                    variants={fadeIn("right", "tween", 0.4, 1.4)}
+                  >
                     <span className="text-secondary font-semibold">
                       Potencial anticancerígeno:{" "}
                     </span>
@@ -141,7 +161,10 @@ const Productos = () => {
                     por lo tanto, podrían ser útiles en la prevención y
                     tratamiento de ciertos tipos de cáncer.
                   </motion.p>
-                  <motion.p variants={fadeIn("up", "tween", 0.4, 1.5)}>
+                  <motion.p
+                    className="text-[14px] lg:text-[16px]"
+                    variants={fadeIn("up", "tween", 0.4, 1.5)}
+                  >
                     <span className="text-secondary font-semibold">
                       Aplicaciones en la industria alimentaria y cosmética:
                     </span>{" "}
@@ -152,7 +175,10 @@ const Productos = () => {
                     o como ingredientes en productos específicos para el cuidado
                     de la piel y el cabello.
                   </motion.p>
-                  <motion.p variants={fadeIn("left", "tween", 0.4, 1.5)}>
+                  <motion.p
+                    className="text-[14px] lg:text-[16px]"
+                    variants={fadeIn("left", "tween", 0.4, 1.5)}
+                  >
                     Es importante destacar que antes de consumir o utilizar
                     algas como suplemento o en productos cosméticos, es
                     recomendable consultar a un profesional de la salud o
@@ -169,7 +195,7 @@ const Productos = () => {
                 >
                   <motion.h3
                     variants={fadeIn("left", "tween", 0.4, 1.1)}
-                    className="text-2xl mb-4 font-semibold tracking-widest lg:text-[50px] leading-[50px] text-right"
+                    className="text-2xl  mb-4 font-semibold tracking-widest lg:text-[50px] leading-[50px] text-right"
                   >
                     {title}
                   </motion.h3>
@@ -202,7 +228,7 @@ const Productos = () => {
             </motion.h3>
             <motion.p
               variants={fadeIn("left", "tween", 0.4, 1.4)}
-              className="text-lg mt-4"
+              className="text-[14px] lg:text-[16px] mt-4"
             >
               también conocido como alga en polvo o polvo de algas marinas, es
               un producto derivado de las algas que se utiliza en diversas
@@ -218,7 +244,10 @@ const Productos = () => {
           >
             <div className="flex flex-col lg:flex-row justify-between w-full h-full">
               <div className="flex-1 flex flex-col justify-evenly items-cente px-4">
-                <motion.p variants={fadeIn("right", "tween", 0.4, 1.4)}>
+                <motion.p
+                  className="text-[14px] lg:text-[16px] mb-4"
+                  variants={fadeIn("right", "tween", 0.4, 1.4)}
+                >
                   <span className="text-secondary font-semibold">
                     Alto contenido nutricional:
                   </span>{" "}
@@ -227,7 +256,10 @@ const Productos = () => {
                   una amplia gama de nutrientes esenciales, como yodo, hierro,
                   calcio, magnesio, vitamina C y vitamina K.
                 </motion.p>
-                <motion.p variants={fadeIn("up", "tween", 0.4, 1.4)}>
+                <motion.p
+                  className="text-[14px] lg:text-[16px]"
+                  variants={fadeIn("up", "tween", 0.4, 1.4)}
+                >
                   <span className="text-secondary font-semibold">
                     Fuente de antioxidantes:
                   </span>{" "}
@@ -255,7 +287,10 @@ const Productos = () => {
                 whileInView={"show"}
                 className="flex-1 flex flex-col justify-evenly items-center p-4"
               >
-                <motion.p variants={fadeIn("left", "tween", 0.4, 1.4)}>
+                <motion.p
+                  className="text-[14px] lg:text-[16px] mb-4"
+                  variants={fadeIn("left", "tween", 0.4, 1.4)}
+                >
                   <span className="text-secondary font-semibold">
                     Posible efecto antiinflamatorio:
                   </span>{" "}
@@ -263,7 +298,10 @@ const Productos = () => {
                   las algas pueden tener propiedades antiinflamatorias, lo que
                   podría ser beneficioso para la salud en general.
                 </motion.p>
-                <motion.p variants={fadeIn("up", "tween", 0.4, 1.4)}>
+                <motion.p
+                  className="text-[14px] lg:text-[16px]"
+                  variants={fadeIn("up", "tween", 0.4, 1.4)}
+                >
                   <span className="text-secondary font-semibold">
                     Apoyo a la salud digestiva:
                   </span>{" "}
@@ -277,11 +315,11 @@ const Productos = () => {
             variants={staggerContainer(0.3, 1)}
             initial="hidden"
             whileInView={"show"}
-            className="pt-20"
+            className="lg:py-20"
           >
             <motion.p
               variants={fadeIn("up", "tween", 0.4, 1.4)}
-              className="text-center text-2xl"
+              className="text-center lg:text-2xl"
             >
               "Siempre es{" "}
               <span className="text-secondary font-semibold">recomendable</span>{" "}

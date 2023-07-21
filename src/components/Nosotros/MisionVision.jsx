@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../../variants";
-import Mision from '/img/mision.jpg'
-import Vision from '/img/vision.jpg'
+import Mision from "/img/mision.jpg";
+import Vision from "/img/vision.jpg";
 
 const MisionVision = () => {
   return (
@@ -69,11 +69,11 @@ const MisionVision = () => {
             variants={staggerContainer(0.3, 1)}
             initial="hidden"
             whileInView={"show"}
-            className="lg:mt-20"
+            className="lg:mt-20 py-12"
           >
             <motion.h3
               variants={fadeIn("left", "tween", 0.4, 1.1)}
-              className="lg:text-5xl font-semibold text-[30px] text-right"
+              className="lg:text-5xl font-semibold text-[30px] text-right mb-5"
             >
               Nuestra Visión
             </motion.h3>
@@ -83,7 +83,7 @@ const MisionVision = () => {
               whileInView={"show"}
               className="flex flex-col lg:flex-row gap-12 lg:mt-12"
             >
-              <div className="flex-1">
+              <div className="flex-1 mt-12 lg:mt-0 order-1">
                 <motion.img
                   variants={fadeIn("right", "tween", 0.4, 1.1)}
                   src={Vision}

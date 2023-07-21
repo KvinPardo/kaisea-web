@@ -1,3 +1,26 @@
+export const navigation = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "Sobre Nosotros",
+    href: "sobre-nosotros",
+  },
+  {
+    name: "Nuestro Equipo",
+    href: "nuestro-equipo",
+  },
+  {
+    name: "Productos",
+    href: "/productos",
+  },
+  {
+    name: "Contact",
+    href: "/contacto",
+  },
+];
+
 export const hero = {
   pretitle: "Bienvenidos a KAI",
   title: "Algas Marinas de Chile",

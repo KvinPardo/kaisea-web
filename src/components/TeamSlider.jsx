@@ -37,7 +37,7 @@ const TeamSlider = () => {
             <img
               src={`/img/slider/${image}`}
               alt=""
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover lg:mt-8"
             />
           </SwiperSlide>
         );

@@ -23,6 +23,7 @@ const Action = () => {
                 <h2 className="text-primary lg:text-xl text-[17px]">{text2}</h2>
                 <Link
                   to="/productos"
+                  name="productos"
                   className="border border-primary w-[200px] py-3 mt-5 flex justify-center items-center gap-x-3 group hover:bg-primary  hover:text-white"
                 >
                   {btnText}{" "}

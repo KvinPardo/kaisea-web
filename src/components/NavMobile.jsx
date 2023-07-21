@@ -1,63 +1,87 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import Socials from "./Socials";
+import { FiMenu } from "react-icons/fi";
+import { RiCloseFill } from "react-icons/ri";
+import { navigation } from "../data";
+import { AiFillPushpin } from "react-icons/ai";
+// data
 
-const NavMobile = ({ navMobile }) => {
-  const handleClick = () => setNav(false);
+const NavMobile = () => {
+  // state nav
+  const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   return (
-    <nav
-      className={`${
-        navMobile ? "min-h-screen" : "min-h-0"
-      } lg:hidden w-full bg-white fixed top-[80px] left-0 right-0 -bottom-12 -z-10 overflow-hidden transition-all h-0`}
-    >
-      <ul className="w-full h-full flex flex-col justify-center items-center gap-y-8">
-        <li>
-          <Link to="/" onClick={handleClick} className="text-primary text-2xl">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/nosotros"
-            onClick={handleClick}
-            className="text-primary text-2xl"
-          >
-            Nosotros
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/nuestro-equipo"
-            onClick={handleClick}
-            className="text-primary text-2xl"
-          >
-            Nuestro Equipo
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/productos"
-            onClick={handleClick}
-            className="text-primary text-2xl"
-          >
-            Productos
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/contacto"
-            onClick={handleClick}
-            className="text-primary text-2xl"
-          >
-            Contacto
-          </Link>
-        </li>
-      </ul>
-      {/* Socials */}
-      <div className="flex -mt-32 justify-center gap-x-8">
-        <Socials />
+    <nav>
+      {/* menu btn */}
+      <div
+        onClick={() => setIsOpen(!isOpen)}
+        className="cursor-pointer lg:hidden "
+      >
+        {isOpen ? (
+          <RiCloseFill className="text-2xl text-white" />
+        ) : (
+          <FiMenu className="text-2xl text-white" />
+        )}
       </div>
+      {/* menu items */}
+      <ul
+        className={`${
+          isOpen ? "max-h-96 p-10" : "max-h-0 p-0"
+        } flex flex-col justify-center items-center absolute w-full bg-white top-[80px] left-0 shadow-md space-y-6 overflow-hidden transition-all duration-300`}
+      >
+        <Link
+          to="/"
+          className={`${
+            location.pathname === "/"
+              ? "text-secondary border-b-2 border-secondary"
+              : "text-primary"
+          } hover:text-secondary `}
+        >
+          Home
+        </Link>
+        <Link
+          to="/sobre-nosotros"
+          className={`${
+            location.pathname === "/sobre-nosotros"
+              ? "text-secondary border-b-2 border-secondary"
+              : "text-primary"
+          } hover:text-secondary`}
+        >
+          Sobre nosotros
+        </Link>
+        <Link
+          to="/nuestro-equipo"
+          className={`${
+            location.pathname === "/nuestro-equipo"
+              ? "text-secondary border-b-2 border-secondary"
+              : "text-primary"
+          } hover:text-secondary `}
+        >
+          Nuestro Equipo
+        </Link>
+        <Link
+          to="/productos"
+          className={`${
+            location.pathname === "/productos"
+              ? "text-secondary border-b-2 border-secondary"
+              : "text-primary"
+          } hover:text-secondary`}
+        >
+          Productos
+        </Link>
+        <Link
+          to="/contacto"
+          className={`${
+            location.pathname === "/contacto"
+              ? "text-secondary border-b-2 border-secondary"
+              : "text-primary"
+          } hover:text-secondary `}
+        >
+          Contacto
+        </Link>
+      </ul>
     </nav>
   );
 };

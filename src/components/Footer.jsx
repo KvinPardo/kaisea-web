@@ -47,38 +47,29 @@ const Footer = () => {
               {/* Useful links section */}
               <div className="">
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start text-white">
-                  Enalces
+                  Enlaces
                 </h6>
 
                 <ul className="flex flex-col gap-y-2 gap-x-[58px] mb-4">
-                  <li className="">
-                    <Link to="/" className="text-white text-[16px]">
-                      Home
-                    </Link>
-                  </li>
-                  <li className="">
-                    <Link to="/nosotros" className="text-white text-[16px]">
-                      Nosotros
-                    </Link>
-                  </li>
-                  <li className="">
-                    <Link
-                      to="/nuestro-equipo"
-                      className="text-white text-[16px]"
-                    >
-                      Nuestro Equipo
-                    </Link>
-                  </li>
-                  <li className="">
-                    <Link to="/productos" className="text-white text-[16px]">
-                      Productos
-                    </Link>
-                  </li>
-                  <li className="">
-                    <Link to="/contacto" className="text-white text-[16px]">
-                      Contacto
-                    </Link>
-                  </li>
+                  <Link to="/" className="text-white text-[16px]">
+                    Home
+                  </Link>
+
+                  <Link to="/sobre-nosotros" className="text-white text-[16px]">
+                    Nosotros
+                  </Link>
+
+                  <Link to="/nuestro-equipo" className="text-white text-[16px]">
+                    Nuestro Equipo
+                  </Link>
+
+                  <Link to="/productos" className="text-white text-[16px]">
+                    Productos
+                  </Link>
+
+                  <Link to="/contacto" className="text-white text-[16px]">
+                    Contacto
+                  </Link>
                 </ul>
               </div>
               {/* Contact section */}

@@ -11,7 +11,7 @@ import Faqs from "../components/Faqs";
 
 const Home = () => {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden h-full" name="home">
       <Hero />
       <Company />
       <Producto />

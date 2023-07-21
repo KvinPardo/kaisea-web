@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "node_modules/preline/dist/*.js",
+  ],
   theme: {
     fontFamily: {
       primary: "Montserrat",
@@ -22,7 +26,7 @@ export default {
         page: "#FEF8F5",
         primary: "#02175D",
         secondary: "#FFC000",
-        bgprimary: "#045f95",
+        bgprimary: "#00aec7",
       },
       dropShadow: {
         primary: "0 20px 40px rgba(238, 77, 71, 0.1)",
@@ -46,5 +50,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("preline/plugin")],
 };

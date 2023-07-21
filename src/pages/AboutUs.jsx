@@ -7,7 +7,7 @@ import HeroAbout from "/img/aboutus.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full" name="sobre-nosotros">
       <motion.div name="productos" className="relative w-full">
         <div className="w-full h-full relative">
           <img

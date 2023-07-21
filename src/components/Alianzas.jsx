@@ -41,7 +41,7 @@ const Alianzas = () => {
         >
           <motion.h3
             variants={fadeIn("down", "tween", 0.4, 1.2)}
-            className="text-5xl uppercase font-semibold"
+            className="lg:text-5xl uppercase font-semibold text-3xl"
           >
             Nuestras Alianzas
           </motion.h3>
