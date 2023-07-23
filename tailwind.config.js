@@ -3,7 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "node_modules/preline/dist/*.js",
+    
   ],
   theme: {
     fontFamily: {
@@ -46,9 +46,9 @@ export default {
         formaverde: 'url("/img/forma-verde.svg")',
         formaamarilla: 'url("/img/forma-amarilla.svg")',
         formaceleste: 'url("/img/forma-celeste.svg")',
-        // wavedos: 'url("/img/wavedos.svg")'
+        waveblue: 'url("/img/wave-blue.png")'
       },
     },
   },
-  plugins: [require("preline/plugin")],
+  plugins: [],
 };

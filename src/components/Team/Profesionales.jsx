@@ -1,8 +1,14 @@
+import { motion } from "framer-motion";
+import { fadeIn } from "../../variants";
+
 const Profesionales = ({ item }) => {
   const { name, cargo, experience, image } = item;
 
   return (
-    <div className="flex flex-col lg:flex-row w-full h-full shadow-md p-8 hover:scale-105 transition-all duration-300 ">
+    <motion.div
+      variants={fadeIn("right", "tween", 0.5, 1.2)}
+      className="flex flex-col lg:flex-row w-full h-full shadow-md p-8 hover:scale-105 "
+    >
       <div className="flex justify-center items-center">
         <img src={`/img/perfil/${image}.webp`} alt="" />
       </div>
@@ -11,7 +17,7 @@ const Profesionales = ({ item }) => {
         <p className="text-secondary font-bold">{cargo}</p>
         <p className="text-[15px] pt-2">{experience.slice(0, 100)}</p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

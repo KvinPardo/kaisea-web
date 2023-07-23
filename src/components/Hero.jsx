@@ -1,16 +1,13 @@
 import React from "react";
-import Header from "./Header";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../variants";
 import { hero } from "../data";
-import Video from "/img/algas.mp4";
+import Video from "/img/peces.mp4";
 import { Link } from "react-scroll";
-
-// import VideoHero from "../assets/video-hero.mp4";
 
 const Hero = () => {
   //  Destructure hero data
-  const { title, subtitle, buttonText, pretitle } = hero;
+  const { title, buttonText, pretitle } = hero;
 
   return (
     <div className="">
@@ -22,15 +19,18 @@ const Hero = () => {
           muted
           src={Video}
         ></video>
-        <div className="container mx-auto relative">
+        <motion.div
+          variants={staggerContainer(0.5, 1)}
+          initial="hidden"
+          whileInView={"show"}
+          className="container mx-auto relative"
+        >
           <motion.div
-            variants={staggerContainer(0.3, 1)}
-            initial="hidden"
-            whileInView={"show"}
+            variants={fadeIn("down", "tween", 0.4, 1.5)}
             className="absolute lg:top-[-450px] top-[-200px] left-0 flex flex-col justify-center items-center w-full h-full px-4 gap-y-8"
           >
             <motion.h1
-              variants={fadeIn("down", "tween", 0.4, 1.1)}
+              variants={fadeIn("down", "tween", 0.4, 1.5)}
               className="text-white lg:text-4xl text-3xl tracking-widest font-bold uppercase w-full text-center "
             >
               {pretitle}
@@ -53,7 +53,7 @@ const Hero = () => {
               {buttonText}
             </Link>
           </motion.div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

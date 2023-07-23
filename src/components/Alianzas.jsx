@@ -6,31 +6,7 @@ import { fadeIn, staggerContainer } from "../variants";
 
 const Alianzas = () => {
   return (
-    // <section className="section">
-    //   <div className="container mx-auto ">
-    //     <h3 className="text-4xl uppercase font-bold">
-    //       Alianzas Estratégicas
-    //     </h3>
-    //     <div className="grid lg:grid-cols-5 grid-cols-3 mx-auto justify-between w-full gap-x-8">
-    //       {alianzas.map((alianza) => {
-    //         const { id, image, descripcion } = alianza;
-    //         return (
-    //           <div
-    //             className="flex flex-col w-full justify-center lg:py-8 items-center shadow-md my-2 hover:scale-105 transition-all hover:border-primary hover:border"
-    //             key={id}
-    //           >
-    //             <img
-    //               src={`/img/alianzas/${image}.png`}
-    //               alt=""
-    //               className="p-4 lg:w-[100px]"
-    //             />
-    //             <p className="text-center">{descripcion}</p>
-    //           </div>
-    //         );
-    //       })}
-    //     </div>
-    //   </div>
-    // </section>
+    
     <section className=" lg:pb-44">
       <div className="container mx-auto">
         <motion.div
@@ -60,7 +36,7 @@ const Alianzas = () => {
               variants={fadeIn("right", "tween", 0.4, 1.4)}
               className="mb-2 flex flex-col items-center justify-center gap-y-4 hover:bg-gray-50 p-3 group "
             >
-              <a href="" target="_blank" className="group">
+              <a href="#" target="_blank" className="group">
                 <img
                   src={Kimica}
                   alt=""

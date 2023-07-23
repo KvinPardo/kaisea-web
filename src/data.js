@@ -92,59 +92,6 @@ export const polvoAlgas = [
   },
 ];
 
-export const pricing = [
-  {
-    image: "/img/co2.webp",
-    title: "CAPACIDADES DE ABSORCIÓN DE CO2",
-    list: [
-      {
-        name: "Las algas absorben 2,7 toneladas de CO2 por día por acre (1 acre de un bosque de árboles absorbe 2,5 toneladas por año). Limpia el agua en áreas industriales contaminadas",
-      },
-      {
-        image: "/img/fuel.webp",
-        name: " Limpia el agua en áreas industriales contaminadas.",
-      },
-      {
-        image: "/img/resource.webp",
-        name: "Las algas absorben 2,7 toneladas de CO2 por día por acre (1 acre de un bosque de árboles absorbe 2,5 toneladas por año).",
-      },
-    ],
-    buttonText: "Ver más",
-  },
-  {
-    image: "/img/fuel.webp",
-    title:
-      "MATERIA PRIMA PARA PRODUCTOS DE BIOCOMBUSTIBLES Y OTRAS APLICACIONES",
-    list: [
-      {
-        name: "Las macroalgas se pueden procesar en bioetanol y usarse como aditivo para combustibles de automóviles y aviones.",
-      },
-      {
-        name: "Las macroalgas se pueden procesar en bioetanol y usarse como aditivo para combustibles de automóviles y aviones.",
-      },
-      {
-        name: "Las macroalgas se pueden procesar en bioetanol y usarse como aditivo para combustibles de automóviles y aviones.",
-      },
-    ],
-    buttonText: "Ver más",
-  },
-  {
-    image: "/img/resourse.webp",
-    title: "EFICIENCIA DE LOS RECURSOS",
-    list: [
-      {
-        name: "Uso eficiente de los recursos para el cultivo en agua salada; no requiere terreno y alto mantenimiento",
-      },
-      {
-        name: "a diferencia de otros biocombustibles",
-      },
-      {
-        name: "materias primas (maíz, caña de azúcar, etc.)",
-      },
-    ],
-    buttonText: "Ver más",
-  },
-];
 
 export const team = [
   {

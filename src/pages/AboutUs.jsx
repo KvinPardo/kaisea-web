@@ -8,8 +8,16 @@ import HeroAbout from "/img/aboutus.jpg";
 const AboutUs = () => {
   return (
     <div className="h-full w-full" name="sobre-nosotros">
-      <motion.div name="productos" className="relative w-full">
-        <div className="w-full h-full relative">
+      <motion.div
+        variants={staggerContainer(0.3, 1)}
+        initial="hidden"
+        whileInView={"show"}
+        name="productos"
+        className="relative w-full"
+      >
+        <motion.div 
+          variants={fadeIn("tween", 0.4, 0.5)}
+          className="w-full h-full relative">
           <img
             src={HeroAbout}
             alt=""
@@ -36,7 +44,7 @@ const AboutUs = () => {
               nuestro compromiso con la sostenibilidad.
             </motion.p>
           </motion.div>
-        </div>
+        </motion.div>
       </motion.div>
 
       <section className="section">

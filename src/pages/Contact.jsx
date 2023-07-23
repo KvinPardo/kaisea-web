@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
+import { fadeIn, staggerContainer } from "../variants";
 import { contact } from "../data";
 import { AiFillHome, AiOutlineMail, AiFillPhone } from "react-icons/ai";
 import Faqs from "../components/Faqs";
@@ -10,11 +10,17 @@ const Contact = () => {
 
   return (
     <>
-      <section
+      <motion.section
+        variants={staggerContainer(0.3, 1)}
+        initial="hidden"
+        whileInView={"show"}
         className="section lg:py-[150px] my-[80px] bg-wavecontacto bg-center bg-no-repeat w-full h-full bg-cover"
         name="contacto"
       >
-        <div className="container mx-auto">
+        <motion.div
+          variants={fadeIn("down", "tween", 0.4, 1.2)}
+          className="container mx-auto"
+        >
           <div className="flex flex-col lg:flex-row w-full h-full gap-x-10">
             {/* text */}
             <div className="flex-1 flex flex-col gap-y-2">
@@ -129,8 +135,8 @@ const Contact = () => {
               </form>
             </div>
           </div>
-        </div>
-      </section>
+        </motion.div>
+      </motion.section>
 
       <section className="section">
         <div className="">
