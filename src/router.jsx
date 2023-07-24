@@ -6,6 +6,8 @@ import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
 
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,6 +33,8 @@ const router = createBrowserRouter([
       {
         path: "/contacto",
         element: <Contact />,
+        
+      
       },
     ],
   },

@@ -8,7 +8,7 @@ import { fadeIn, staggerContainer } from "../variants";
 
 const Team = () => {
   return (
-    <div className=" w-full h-full">
+    <div className="w-full h-full">
       <motion.div
         variants={staggerContainer(0.3, 1)}
         initial="hidden"
@@ -33,7 +33,7 @@ const Team = () => {
           >
             <motion.h1
               variants={fadeIn("right", "tween", 0.4, 1.1)}
-              className="text-secondary lg:text-[60px] text-[44px] font-bold uppercase lg:tracking-[15px] tracking-[10px]"
+              className="text-secondary lg:text-[60px] text-[44px] text-center font-bold uppercase lg:tracking-[15px] leading-10 lg:leading-none tracking-[10px]"
             >
               Nuestro Equipo
             </motion.h1>
@@ -134,7 +134,7 @@ const Team = () => {
           <div>
             <motion.h3
               variants={fadeIn("right", "tween", 0.5, 1.2)}
-              className="text-[40px] font-bold leading-10"
+              className="lg:text-[40px] text-[30px] font-bold leading-10"
             >
               Nuestros Profesionales
             </motion.h3>

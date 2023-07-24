@@ -3,7 +3,6 @@ import { FaAngleUp } from "react-icons/fa";
 import "../ScrollToTop.css";
 
 
-
 const ScrollToTop = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
 
@@ -16,12 +15,16 @@ const ScrollToTop = () => {
       }
     });
   }, []);
+
+
   const goToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   };
+
+
   return (
     <>
       <div className="top-to-btn">

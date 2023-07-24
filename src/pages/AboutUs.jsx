@@ -53,11 +53,11 @@ const AboutUs = () => {
             variants={staggerContainer(0.3, 1)}
             initial="hidden"
             whileInView={"show"}
-            className="flex flex-col justify-center items-center w-full h-full gap-y-6"
+            className="flex flex-col justify-center items-center w-full h-full gap-y-6 mt-5"
           >
             <motion.h3
               variants={fadeIn("down", "tween", 0.4, 1.2)}
-              className="text-xl text-center"
+              className="lg:text-xl text-center"
             >
               KAI es una empresa familiar con sede en la provincia de Vallenar,
               en la zona norte de Chile. Desde hace más de dos décadas, nos
@@ -66,7 +66,7 @@ const AboutUs = () => {
             </motion.h3>
             <motion.p
               variants={fadeIn("down", "tween", 0.4, 1.3)}
-              className="text-xl text-primary text-center"
+              className="lg:text-xl text-primary text-center"
             >
               Nuestra experiencia y dedicación nos han convertido en referentes
               en la extracción y procesamiento de algas marinas pardas, siendo
