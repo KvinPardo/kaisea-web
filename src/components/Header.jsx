@@ -5,6 +5,7 @@ import Socials from "./Socials";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../variants";
+import Logo from "/img/logo-kaisea.svg";
 
 const Header = () => {
   return (
@@ -12,18 +13,19 @@ const Header = () => {
       variants={staggerContainer(0.3, 1)}
       initial="hidden"
       whileInView={"show"}
-      className="fixed bg- w-full mx-auto h-[80px] shadow-md px-4 lg:px-8 z-50 transition-all duration-500 bg-bgprimary flex items-center justify-between"
+      className="fixed bg- w-full mx-auto h-[90px] shadow-md px-4 lg:px-8 z-50 transition-all duration-500 bg-bgprimary flex items-center justify-between"
     >
       <motion.div
         variants={fadeIn("down", "tween", 0.4, 1.2)}
-        className="container mx-auto flex justify-between items-center">
+        className="container mx-auto flex justify-between items-center"
+      >
         <div className="flex items-center">
           {/* Logo */}
           <Link
             to="/"
             className="text-2xl font-bold text-white tracking-widest"
           >
-            KAISEA.
+            <img src={Logo} alt="" className="lg:w-28 w-[100px]" />
           </Link>
           {/* nav */}
         </div>
