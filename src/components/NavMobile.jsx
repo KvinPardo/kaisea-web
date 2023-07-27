@@ -51,7 +51,7 @@ const NavMobile = () => {
         >
           Sobre nosotros
         </Link>
-        <Link
+        {/* <Link
           to="/nuestro-equipo"
           className={`${
             location.pathname === "/nuestro-equipo"
@@ -60,7 +60,7 @@ const NavMobile = () => {
           } hover:text-secondary `}
         >
           Nuestro Equipo
-        </Link>
+        </Link> */}
         <Link
           to="/productos"
           className={`${

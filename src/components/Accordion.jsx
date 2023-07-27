@@ -15,19 +15,19 @@ const Accordion = ({ accordion }) => {
           <h6 className="font-bold text-[18px] z-20">{question}</h6>
           <div>
             {isOpen ? (
-              <FaChevronCircleUp className="text-[25px] text-secondary" />
+              <FaChevronCircleUp className="text-[25px] text-secondary cursor-pointer" />
             ) : (
-              <FaChevronCircleDown className="text-[25px] text-secondary" />
+              <FaChevronCircleDown className="text-[25px] text-secondary cursor-pointer" />
             )}
           </div>
         </div>
 
         <div
-          className={` ${
-            isOpen ? "min-h-[200px] lg:min-h-[160px] relative " : "min-h-0"
+          className={`${
+            isOpen ? "min-h-[200px] lg:min-h-[160px] relative" : "min-h-0"
           } max-h-0 overflow-hidden flex justify-center transition-all px-[30px] relative`}
         >
-          <div className="mt-6 overflow-y-scroll md:overflow-visible">
+          <div className="mt-6 overflow-y-scroll">
             <p>{answer}</p>
           </div>
         </div>

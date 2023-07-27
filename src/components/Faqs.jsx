@@ -15,7 +15,7 @@ const Faqs = () => {
         {/* section title */}
         <div className="relative flex lg:justify-center items-center z-20 py-10 justify-start">
           <h2 className="font-medium lg:text-[60px] text-[30px] px-6">
-            {title} <span className="text-secondary">.</span>
+            {title}
           </h2>
         </div>
         {/* accordion list*/}
