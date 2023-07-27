@@ -45,7 +45,7 @@ const Footer = () => {
                   to="/"
                   className="text-2xl font-bold text-white tracking-widest"
                 >
-                  KAISEA.
+                  KAI.
                 </Link>
                 <p className="">
                   Nos hemos dedicado al negocio acuícola de algas marinas,

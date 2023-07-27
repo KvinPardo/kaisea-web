@@ -48,7 +48,7 @@ const Action = () => {
                   <Link
                     to="/productos"
                     name="productos"
-                    className="border border-primary w-[200px] py-3 mt-5 flex justify-center items-center gap-x-3 group hover:bg-primary  hover:text-white"
+                    className="border border-primary w-[200px] py-3 mt-5 flex justify-center items-center gap-x-3 group hover:bg-primary  hover:text-white text-primary"
                   >
                     {btnText}{" "}
                     <FiChevronRight className="group-hover:translate-x-2 transition-all duration-200" />

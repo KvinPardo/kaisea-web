@@ -85,7 +85,7 @@ const MisionVision = () => {
             >
               <div className="flex-1 mt-12 lg:mt-0 order-1">
                 <motion.img
-                  variants={fadeIn("right", "tween", 0.4, 1.1)}
+                  variants={fadeIn("left", "tween", 0.4, 1.1)}
                   src={Vision}
                   alt=""
                   className="w-full h-full"

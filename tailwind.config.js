@@ -46,9 +46,9 @@ export default {
         formaverde: 'url("/img/forma-verde.svg")',
         formaamarilla: 'url("/img/forma-amarilla.svg")',
         formaceleste: 'url("/img/forma-celeste.svg")',
-        waveblue: 'url("/img/wave-blue.png")'
+        waveblue: 'url("/img/wave-blue.png")',
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

@@ -6,8 +6,8 @@ import Action from "../components/Action";
 import Alianzas from "../components/Alianzas";
 
 import Producto from "../components/Producto";
-import ScrollToTop from "../components/ScrollToTop";
-import Faqs from "../components/Faqs";
+
+import Accordion from "../components/Accordion";
 
 const Home = () => {
   return (
@@ -18,10 +18,10 @@ const Home = () => {
       {/* <Valores/> */}
 
       {/* <Productos /> */}
-      
+
       <Action />
       <Alianzas />
-      <Faqs />
+      <Accordion />
     </div>
   );
 };

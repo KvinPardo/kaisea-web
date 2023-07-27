@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../variants";
 import { contact } from "../data";
 import { AiFillHome, AiOutlineMail, AiFillPhone } from "react-icons/ai";
-import Faqs from "../components/Faqs";
+
 import Formulario from "../components/Formulario";
 import { Form } from "react-router-dom";
 
@@ -72,12 +72,6 @@ const Contact = () => {
           </motion.div>
         </motion.section>
       </motion.div>
-
-      <section className="section">
-        <div className="">
-          <Faqs />
-        </div>
-      </section>
     </>
   );
 };

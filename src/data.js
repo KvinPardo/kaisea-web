@@ -160,17 +160,17 @@ export const team = [
   },
 ];
 
-export const teamSlider = [
-  {
-    image: "galeria1.jpg",
-  },
-  {
-    image: "galeria2.jpg",
-  },
-  {
-    image: "galeria3.jpg",
-  },
-];
+// export const teamSlider = [
+//   {
+//     image: "galeria1.jpg",
+//   },
+//   {
+//     image: "galeria2.jpg",
+//   },
+//   {
+//     image: "galeria3.jpg",
+//   },
+// ];
 
 export const aboutUs = [
   {
