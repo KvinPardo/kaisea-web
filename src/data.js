@@ -7,10 +7,10 @@ export const navigation = [
     name: "Sobre Nosotros",
     href: "sobre-nosotros",
   },
-  {
-    name: "Nuestro Equipo",
-    href: "nuestro-equipo",
-  },
+  // {
+  //   name: "Nuestro Equipo",
+  //   href: "nuestro-equipo",
+  // },
   {
     name: "Productos",
     href: "/productos",

@@ -18,8 +18,9 @@ const Home = () => {
       {/* <Valores/> */}
 
       {/* <Productos /> */}
-      <Alianzas />
+      
       <Action />
+      <Alianzas />
       <Faqs />
     </div>
   );

@@ -38,7 +38,7 @@ const Nav = () => {
             Sobre nosotros
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to="/nuestro-equipo"
             className={`${
@@ -49,7 +49,7 @@ const Nav = () => {
           >
             Nuestro Equipo
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             to="/productos"
