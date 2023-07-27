@@ -14,7 +14,7 @@ const Home = () => {
     <div className="w-full overflow-hidden h-full" name="home">
       <Hero />
       <Company />
-      <Producto />
+      {/* <Producto /> */}
       {/* <Valores/> */}
 
       {/* <Productos /> */}
