@@ -76,14 +76,14 @@ const Footer = () => {
                       Sobre Nosotros
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       to="/nuestro-equipo"
                       className="text-white"
                     >
                       Nuestro Equipo
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       to="/productos"
