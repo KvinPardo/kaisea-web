@@ -3,10 +3,10 @@ import React, { useState } from "react";
 const Accordion = () => {
   return (
     <>
-      <h3 className="lg:text-[60px] text-[20px] text-center lg:py-20 py-4">
+      <h3 className="lg:text-[60px] text-[20px] text-center lg:py-12 py-4">
         Preguntas Frecuentes
       </h3>
-      <div className="flex flex-col justify-center items-center w-full container mx-auto max-w-[800px] lg:py-10 mb-32">
+      <div className="flex flex-col justify-center items-center w-full container mx-auto max-w-[800px] lg:py-8 mb-32 lg:mb-10">
         <div className="collapse collapse-plus border-secondary border rounded-none lg:py-2">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
