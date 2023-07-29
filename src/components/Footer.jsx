@@ -4,6 +4,8 @@ import { AiFillHome, AiOutlineMail, AiFillPhone } from "react-icons/ai";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { staggerContainer } from "../variants";
+import Logo from "/img/logo.png";
+
 
 const Footer = () => {
   return (
@@ -45,7 +47,7 @@ const Footer = () => {
                   to="/"
                   className="text-2xl font-bold text-white tracking-widest"
                 >
-                  KAI.
+                  <img src={Logo} alt="" className="w-[120px] h-full"/>
                 </Link>
                 <p className="">
                   Nos hemos dedicado al negocio acuícola de algas marinas,

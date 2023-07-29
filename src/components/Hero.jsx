@@ -26,7 +26,7 @@ const Hero = () => {
           className="container mx-auto relative"
         >
           <motion.div
-            variants={fadeIn("down", "tween", 0.4, 1.5)}
+            variants={fadeIn("up", "tween", 0.1, 1.2)}
             className="absolute lg:top-[-450px] top-[-200px] left-0 flex flex-col justify-center items-center w-full h-full px-4 gap-y-8"
           >
             <motion.h1

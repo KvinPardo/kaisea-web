@@ -5,7 +5,7 @@ import Socials from "./Socials";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../variants";
-import Logo from "/img/logo-kaisea.svg";
+import Logo from "/img/logo.png";
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
       variants={staggerContainer(0.3, 1)}
       initial="hidden"
       whileInView={"show"}
-      className="fixed bg- w-full mx-auto h-[90px] shadow-md px-4 lg:px-8 z-50 transition-all duration-500 bg-bgprimary flex items-center justify-between"
+      className="fixed bg- w-full mx-auto h-[95px] shadow-md px-4 lg:px-8 z-50 transition-all duration-500 bg-bgprimary flex items-center justify-between"
     >
       <motion.div
         variants={fadeIn("down", "tween", 0.4, 1.2)}
