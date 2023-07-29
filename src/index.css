@@ -15,6 +15,14 @@
   h6 {
     @apply font-primary text-primary;
   }
+  
+  input {
+    background: #fff;
+  }
+
+  textarea {
+    background: #fff;
+  }
 
   .title,
   .section-title {
