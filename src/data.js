@@ -22,7 +22,7 @@ export const navigation = [
 ];
 
 export const hero = {
-  pretitle: "Bienvenidos a KAI",
+  pretitle: "Bienvenidos a KAY",
   title: "Bioseaweed Chile",
   // subtitle: "en el lugar mejor evaluado de Santiago de Chile",
   buttonText: "Ver más",
@@ -187,7 +187,7 @@ export const action = [
     image: "algas-contacto",
     title:
       "Descubre más sobre nuestros productos y nuestro compromiso con la sostenibilidad.",
-    text2: "¡Explora el mundo de las algas marinas con KAI!",
+    text2: "¡Explora el mundo de las algas marinas con KAY!",
     btnText: "Saber más",
   },
 ];
