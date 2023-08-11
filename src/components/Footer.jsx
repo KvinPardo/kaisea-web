@@ -115,10 +115,10 @@ const Footer = () => {
                 </p>
                 <p className="mb-4 flex items-center justify-center md:justify-start gap-x-2">
                   <AiOutlineMail />
-                  info@example.com
+                  diaz-k@kai-sea.cl
                 </p>
                 <p className="mb-4 flex items-center justify-center md:justify-start gap-x-2">
-                  <AiFillPhone />+ 56 2 12345678
+                  <AiFillPhone />+ 56 974660392
                 </p>
               </div>
             </div>
