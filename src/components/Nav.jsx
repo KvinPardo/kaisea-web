@@ -23,7 +23,7 @@ const Nav = () => {
                 : "text-white"
             } hover:text-secondary `}
           >
-            Home
+            Inicio
           </Link>
         </li>
         <li>
@@ -35,7 +35,7 @@ const Nav = () => {
                 : "text-white"
             } hover:text-secondary`}
           >
-            Sobre nosotros
+          Nosotros
           </Link>
         </li>
         {/* <li>

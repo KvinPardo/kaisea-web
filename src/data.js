@@ -30,8 +30,8 @@ export const hero = {
 
 export const company = {
   image: "company-algas1",
-  title: "En KAI nos especializamos",
-  text: "en la extracción y procesamiento de algas marinas pardas en Chile. Con más de dos décadas de experiencia, nos hemos dedicado al negocio acuícola de algas marinas, recolectando, secando y picando algas silvestres de las especies Lessonia nigrescens, Lessonia trabeculata y Macrosystis prifera. Nuestros productos son utilizados en la producción exclusiva de alginatos, hidrocoloides naturales apreciados por su calidad y funcionalidad en la industria alimenticia, farmacéutica y médica",
+  title: "En KAY nos especializamos",
+  text: "en la recolección y procesamiento de algas marinas pardas en Chile. Con más de dos décadas de experiencia, nos hemos dedicado al negocio acuícola de algas marinas, recolectando, secando y picando algas silvestres de las especies Lessonia nigrescens, Lessonia trabeculata y Macrosystis prifera. Nuestros productos son utilizados en la producción exclusiva de alginatos, hidrocoloides naturales apreciados por su calidad y funcionalidad en la industria alimenticia, farmacéutica y médica",
   items: [
     {
       title: "Co2",
@@ -174,7 +174,7 @@ export const team = [
 
 export const aboutUs = [
   {
-    title: "Kai",
+    title: "Kay",
     description:
       "Empresa Familiar experta en la extracción y procesamiento de algas pardas",
     text2:
@@ -217,7 +217,7 @@ export const valores = [
 
 export const vision = [
   {
-    image: "vision",
+    image: "nuestra-mision-1",
     title: "Nuestra Visión",
     subtitle: "lorem",
     description:
@@ -225,16 +225,16 @@ export const vision = [
   },
 ];
 
-export const mision = [
-  {
-    title:
-      "Incluir la misión y la visión de KAI, destacando el objetivo de liderar el desarrollo sostenible de la industria acuícola de algas marinas en Chile y convertirse en el referente global en la producción sostenible de algas marinas cultivadas.",
-    image: "sostenible",
-    forma1: "forma-verde",
-    forma2: "forma-amarilla",
-    forma3: "forma-celeste",
-  },
-];
+// export const mision = [
+//   {
+//     title:
+//       "Incluir la misión y la visión de KAI, destacando el objetivo de liderar el desarrollo sostenible de la industria acuícola de algas marinas en Chile y convertirse en el referente global en la producción sostenible de algas marinas cultivadas.",
+//     image: "sostenible",
+//     forma1: "forma-verde",
+//     forma2: "forma-amarilla",
+//     forma3: "forma-celeste",
+//   },
+// ];
 
 export const alianzas = [
   {

@@ -42,7 +42,7 @@ const Team = () => {
               className="text-white lg:text-3xl text-[20px] font-semibold lg:text-left text-center"
             >
               Conoce a quienes conforman Nuestro Equipo en{" "}
-              <strong className="text-secondary tracking-[9px]">KAI</strong>
+              <strong className="text-secondary tracking-[9px]">KAY</strong>
             </motion.p>
           </motion.div>
         </motion.div>

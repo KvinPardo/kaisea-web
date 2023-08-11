@@ -3,7 +3,7 @@ import Valores from "../components/Valores";
 // import { aboutUs, vision, mision } from "../data";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../variants";
-import HeroAbout from "/img/aboutus.jpg";
+import HeroAbout from "/img/banner-about.jpeg";
 
 const AboutUs = () => {
   return (
@@ -33,13 +33,13 @@ const AboutUs = () => {
               variants={fadeIn("right", "tween", 0.4, 1.1)}
               className="text-secondary lg:text-[70px] text-[44px] font-bold uppercase lg:tracking-[20px] tracking-[10px]"
             >
-              Kai
+              Kay
             </motion.h1>
             <motion.p
               variants={fadeIn("down", "tween", 0.4, 1.2)}
               className="text-white lg:text-2xl text-[20px] font-semibold lg:text-left text-center"
             >
-              Empresa Familiar experta en la extracción y procesamiento de algas
+              Empresa Familiar experta en la recolección y procesamiento de algas
               pardas, siendo reconocidos por la calidad de nuestros productos y
               nuestro compromiso con la sostenibilidad.
             </motion.p>
@@ -59,7 +59,7 @@ const AboutUs = () => {
               variants={fadeIn("down", "tween", 0.4, 1.2)}
               className="lg:text-xl text-center"
             >
-              KAI es una empresa familiar con sede en la provincia de Vallenar,
+              KAY es una empresa familiar con sede en la provincia de Vallenar,
               en la zona norte de Chile. Desde hace más de dos décadas, nos
               hemos dedicado al negocio acuícola de algas marinas, aprovechando
               la riqueza de las costas chilenas.{" "}

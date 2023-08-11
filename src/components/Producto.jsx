@@ -46,7 +46,7 @@ const Producto = () => {
               variants={fadeIn("left", "tween", 0.4, 1.2)}
               className="text-2xl mb-4 font-semibold tracking-widest lg:text-[50px] leading-[50px] mt-5"
             >
-              Lessonia Nigrescens
+              Lessonia Nigrescens (Berteroana/spicata)
             </motion.h3>
             <motion.p
               variants={fadeIn("left", "tween", 0.4, 1.2)}

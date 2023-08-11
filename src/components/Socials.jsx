@@ -7,9 +7,6 @@ const Socials = () => {
         <FaFacebookF className="lg:text-white text-primary lg:text-xl text-[30px]" />
       </a>
       <a href="#" target="_blank">
-        <FaTwitter className="lg:text-white text-primary lg:text-xl text-[30px]" />
-      </a>
-      <a href="#" target="_blank">
         <FaInstagram className="lg:text-white text-primary lg:text-xl text-[30px]" />
       </a>
     </div>

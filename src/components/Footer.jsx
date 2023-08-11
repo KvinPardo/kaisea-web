@@ -33,9 +33,7 @@ const Footer = () => {
               <a href="#" className=" text-white ">
                 <FaInstagram />
               </a>
-              <a href="#" className=" text-white ">
-                <FaTwitter />
-              </a>
+             
             </div>
           </div>
           <div className="block bg-secondary w-full h-[1px]" />

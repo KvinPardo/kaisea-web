@@ -23,7 +23,7 @@ const Productos = () => {
             variants={fadeIn("left", "tween", 0.4, 1.2)}
             className="text-[14px] lg:text-[16px]"
           >
-            KAI recolecta, seca y procesa algas marinas pardas Lessonia
+            KAY recolecta, seca y procesa algas marinas pardas Lessonia
             nigrescens y Lessonia trabeculata. Estos productos son materia prima
             para el desarrolo de productos de la industria de alginatos, donde
             las propiedades gelificantes y espesantes sirven para el desarrollo
@@ -232,7 +232,7 @@ const Productos = () => {
             >
               también conocido como alga en polvo o polvo de algas marinas, es
               un producto derivado de las algas que se utiliza en diversas
-              industrias y como suplemento nutricional.{" "}
+              industrias.
             </motion.p>
           </motion.div>
 
@@ -311,7 +311,7 @@ const Productos = () => {
               </motion.div>
             </div>
           </motion.div>
-          <motion.div
+          {/* <motion.div
             variants={staggerContainer(0.3, 1)}
             initial="hidden"
             whileInView={"show"}
@@ -331,7 +331,7 @@ const Productos = () => {
               significativos en tu dieta para determinar si el polvo de algas es
               adecuado para ti y tu situación particular".
             </motion.p>
-          </motion.div>
+          </motion.div> */}
         </section>
       </div>
     </section>
