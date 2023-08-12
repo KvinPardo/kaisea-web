@@ -33,7 +33,7 @@ const AboutUs = () => {
               variants={fadeIn("right", "tween", 0.4, 1.1)}
               className="text-secondary lg:text-[70px] text-[44px] font-bold uppercase lg:tracking-[20px] tracking-[10px]"
             >
-              Kay
+              KAI
             </motion.h1>
             <motion.p
               variants={fadeIn("down", "tween", 0.4, 1.2)}
@@ -59,7 +59,7 @@ const AboutUs = () => {
               variants={fadeIn("down", "tween", 0.4, 1.2)}
               className="lg:text-xl text-center"
             >
-              KAY es una empresa familiar con sede en la provincia de Vallenar,
+              KAI es una empresa familiar con sede en la provincia de Vallenar,
               en la zona norte de Chile. Desde hace más de dos décadas, nos
               hemos dedicado al negocio acuícola de algas marinas, aprovechando
               la riqueza de las costas chilenas.{" "}

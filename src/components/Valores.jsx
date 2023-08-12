@@ -17,7 +17,7 @@ const Valores = () => {
             variants={fadeIn("right", "tween", 0.4, 1.0)}
             className="lg:text-4xl text-xl"
           >
-            En KAY, nos guiamos por valores fundamentales como la
+            En KAI, nos guiamos por valores fundamentales como la
             <span className="text-secondary uppercase font-semibold">
               {" "}
               sostenibilidad

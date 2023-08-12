@@ -22,7 +22,7 @@ export const navigation = [
 ];
 
 export const hero = {
-  pretitle: "Bienvenidos a KAY",
+  pretitle: "Bienvenidos a KAI",
   title: "Bioseaweed Chile",
   // subtitle: "en el lugar mejor evaluado de Santiago de Chile",
   buttonText: "Ver más",
@@ -30,7 +30,7 @@ export const hero = {
 
 export const company = {
   image: "company-algas1",
-  title: "En KAY nos especializamos",
+  title: "En KAI nos especializamos",
   text: "en la recolección y procesamiento de algas marinas pardas en Chile. Con más de dos décadas de experiencia, nos hemos dedicado al negocio acuícola de algas marinas, recolectando, secando y picando algas silvestres de las especies Lessonia nigrescens, Lessonia trabeculata y Macrosystis prifera. Nuestros productos son utilizados en la producción exclusiva de alginatos, hidrocoloides naturales apreciados por su calidad y funcionalidad en la industria alimenticia, farmacéutica y médica",
   items: [
     {
@@ -174,7 +174,7 @@ export const team = [
 
 export const aboutUs = [
   {
-    title: "Kay",
+    title: "KAI",
     description:
       "Empresa Familiar experta en la extracción y procesamiento de algas pardas",
     text2:
@@ -187,7 +187,7 @@ export const action = [
     image: "algas-contacto",
     title:
       "Descubre más sobre nuestros productos y nuestro compromiso con la sostenibilidad.",
-    text2: "¡Explora el mundo de las algas marinas con KAY!",
+    text2: "¡Explora el mundo de las algas marinas con KAI!",
     btnText: "Saber más",
   },
 ];

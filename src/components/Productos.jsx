@@ -23,7 +23,7 @@ const Productos = () => {
             variants={fadeIn("left", "tween", 0.4, 1.2)}
             className="text-[14px] lg:text-[16px]"
           >
-            KAY recolecta, seca y procesa algas marinas pardas Lessonia
+            KAI recolecta, seca y procesa algas marinas pardas Lessonia
             nigrescens y Lessonia trabeculata. Estos productos son materia prima
             para el desarrolo de productos de la industria de alginatos, donde
             las propiedades gelificantes y espesantes sirven para el desarrollo
