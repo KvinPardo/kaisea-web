@@ -4,7 +4,7 @@ import { AiFillHome, AiOutlineMail, AiFillPhone } from "react-icons/ai";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { staggerContainer } from "../variants";
-import Logo from "/img/logo.png";
+import Logo from "/img/logo-nuevo.png";
 
 
 const Footer = () => {

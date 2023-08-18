@@ -5,7 +5,7 @@ import Socials from "./Socials";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../variants";
-import Logo from "/img/logo.png";
+import Logo from "/img/logo-nuevo.png";
 
 const Header = () => {
   return (
