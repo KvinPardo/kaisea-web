@@ -37,7 +37,13 @@ const Hero = () => {
             </motion.h1>
             <motion.h3
               variants={fadeIn("right", "tween", 0.4, 1.2)}
-              className="text-[#FFC000] uppercase lg:text-[55px] tracking-wider w-full text-center font-bold text-2xl "
+              className="text-[#FFC000] uppercase lg:text-[65px] tracking-wider w-full text-center font-bold text-2xl "
+            >
+              KAI
+            </motion.h3>
+            <motion.h3
+              variants={fadeIn("right", "tween", 0.4, 1.2)}
+              className="text-white uppercase lg:text-4xl tracking-wider w-full text-center font-bold text-2xl "
             >
               {title}
             </motion.h3>

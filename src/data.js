@@ -22,8 +22,8 @@ export const navigation = [
 ];
 
 export const hero = {
-  pretitle: "Bienvenidos a KAI",
-  title: "Bioseaweed Chile",
+  pretitle: "Bienvenidos a",
+  title: "Algas Marinas de Chile",
   // subtitle: "en el lugar mejor evaluado de Santiago de Chile",
   buttonText: "Ver más",
 };
