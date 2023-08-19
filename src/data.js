@@ -22,7 +22,7 @@ export const navigation = [
 ];
 
 export const hero = {
-  pretitle: "Bienvenidos a",
+  pretitle: "Bienvenidos",
   title: "Algas Marinas de Chile",
   // subtitle: "en el lugar mejor evaluado de Santiago de Chile",
   buttonText: "Ver más",
