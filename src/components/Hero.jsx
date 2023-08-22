@@ -20,23 +20,23 @@ const Hero = () => {
           src={Video}
         ></video>
         <motion.div
-          variants={staggerContainer(0.5, 1)}
+          variants={staggerContainer(0, 1)}
           initial="hidden"
           whileInView={"show"}
           className="container mx-auto relative"
         >
           <motion.div
-            variants={fadeIn("up", "tween", 0.1, 1.2)}
+            variants={fadeIn("down", "tween", 0.1, 1.2)}
             className="absolute lg:top-[-450px] top-[-400px] left-0 flex flex-col justify-center items-center w-full h-full px-4 gap-y-8"
           >
             <motion.h1
-              variants={fadeIn("down", "tween", 0.4, 1.5)}
+              variants={fadeIn("down", "tween", 0.2, 1.3)}
               className="text-white lg:text-4xl text-3xl tracking-widest font-bold uppercase w-full text-center "
             >
               {pretitle}
             </motion.h1>
             <motion.h3
-              variants={fadeIn("right", "tween", 0.4, 1.2)}
+              variants={fadeIn("right", "tween", 0.3, 1.4)}
               className="text-[#FFC000] uppercase lg:text-[65px] tracking-wider w-full text-center font-bold text-2xl "
             >
               KAI
