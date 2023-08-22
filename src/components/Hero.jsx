@@ -13,7 +13,7 @@ const Hero = () => {
     <div className="">
       <div className="w-full h-full">
         <video
-          className="w-full lg:h-[900px] object-cover h-[600px]"
+          className="w-full lg:h-[900px] object-cover h-[650px]"
           autoPlay
           loop
           muted
