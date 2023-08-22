@@ -13,7 +13,7 @@ const Header = () => {
       variants={staggerContainer(0.3, 1)}
       initial="hidden"
       whileInView={"show"}
-      className="fixed bg- w-full mx-auto h-[95px] shadow-md px-4 lg:px-8 z-50 transition-all duration-500 bg-bgprimary flex items-center justify-between"
+      className="fixed bg- w-full mx-auto h-[80px] shadow-md px-4 lg:px-8 z-50 transition-all duration-500 bg-bgprimary flex items-center justify-between"
     >
       <motion.div
         variants={fadeIn("down", "tween", 0.4, 1.2)}
@@ -25,7 +25,7 @@ const Header = () => {
             to="/"
             className="text-2xl font-bold text-white tracking-widest"
           >
-            <img src={Logo} alt="" className="lg:w-28 w-[100px]" />
+            <img src={Logo} alt="" className="lg:w-28 w-[80px]" />
           </Link>
           {/* nav */}
         </div>

@@ -13,7 +13,7 @@ const Hero = () => {
     <div className="">
       <div className="w-full h-full">
         <video
-          className="w-full lg:h-[900px] object-cover h-[700px]"
+          className="w-full lg:h-[900px] object-cover h-[600px]"
           autoPlay
           loop
           muted
@@ -26,7 +26,7 @@ const Hero = () => {
           className="container mx-auto relative"
         >
           <motion.div
-            variants={fadeIn("down", "tween", 0.1, 1.2)}
+            variants={fadeIn("down", "", 0.1, 1.2)}
             className="absolute lg:top-[-450px] top-[-300px] left-0 flex flex-col justify-center items-center w-full h-full px-4 gap-y-8"
           >
             <motion.h1
